@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T12:12:30+08:00",
+  "model": "gpt-5.6-sol",
+  "mode": "model",
+  "thesis": "能源行业定价逻辑正从装机规模转向系统价值：虚拟电厂提前达标、独立储能经济性拐点临近，整车价格战与账款压力正把利润向电池头部与调节资源环节再分配。",
+  "summary": "创刊号聚焦三条主线：国家能源局解读首部虚拟电厂报告，调节能力2042.8万千瓦提前实现2027年目标；中信证券判断独立储能经济性拐点将至，前9月新型储能新增装机111GWh同比增87%；港股汽车股走弱，零跑Q3净利仅0.4亿元、小鹏净亏8.7亿元，中汽协启动17家车企账款调研。10月动力电池装车99.4GWh、前2家占61.1%，全国充电设施达2539.1万枪。",
+  "relative_html": "2026/11/2026-11-23/Daily%20Intelligence.html",
+  "topics": [
+    "虚拟电厂",
+    "独立储能经济性",
+    "动力电池集中度",
+    "新能源汽车盈利分化",
+    "充电基础设施",
+    "零跑汽车",
+    "小鹏汽车",
+    "锂电消费税",
+    "固态电池专利",
+    "韩国电池稼动率",
+    "系统运行费分摊",
+    "车网互动"
+  ],
+  "quote": {
+    "english": "appear to be consolidating, with filing numbers decreasing for a second consecutive year.",
+    "speaker": "Chris Mason, Partner at Appleyard Lees",
+    "chinese": "（锂离子电池技术）似乎正进入整合期，专利申请量连续第二年下降。",
+    "source_url": "https://www.pv-magazine.com/2026/11/21/battery-patents-solid-state-filings-surpass-lithium-ion-to-hit-record-high/"
+  },
+  "markets": [
+    {
+      "name": "10月动力电池装车量·前2家",
+      "status": "动力电池联盟月度发布（11-19）",
+      "value": 60.7,
+      "unit": "GWh",
+      "source_url": "https://mchd.in-en.com/html/chd-2463389.shtml"
+    },
+    {
+      "name": "10月动力电池装车量·前5家",
+      "status": "动力电池联盟月度发布（11-19）",
+      "value": 80.8,
+      "unit": "GWh",
+      "source_url": "https://mchd.in-en.com/html/chd-2463389.shtml"
+    },
+    {
+      "name": "10月动力电池装车量·前10家",
+      "status": "动力电池联盟月度发布（11-19）",
+      "value": 94.3,
+      "unit": "GWh",
+      "source_url": "https://mchd.in-en.com/html/chd-2463389.shtml"
+    },
+    {
+      "name": "10月动力电池装车量·全行业28家合计",
+      "status": "动力电池联盟月度发布（11-19）",
+      "value": 99.4,
+      "unit": "GWh",
+      "source_url": "https://mchd.in-en.com/html/chd-2463389.shtml"
+    },
+    {
+      "name": "10月三元电池装车量",
+      "status": "联盟数据（生意社11-19转引）",
+      "value": 12.8,
+      "unit": "GWh",
+      "source_url": "https://www.100ppi.com/news/detail-20261119-6518013.html"
+    },
+    {
+      "name": "10月磷酸铁锂电池装车量",
+      "status": "联盟数据（生意社11-19转引）",
+      "value": 86.3,
+      "unit": "GWh",
+      "source_url": "https://www.100ppi.com/news/detail-20261119-6518013.html"
+    },
+    {
+      "name": "全国充电设施总量（截至10月底）",
+      "status": "国家能源局月度发布（11-20）",
+      "value": 2539.1,
+      "unit": "万个",
+      "source_url": "https://www.nea.gov.cn/20261120/b5c5d572988c4171982367855f9a1b26/c.html"
+    },
+    {
+      "name": "公共充电桩保有量",
+      "status": "国家能源局月度发布（11-20）",
+      "value": 528.3,
+      "unit": "万个",
+      "source_url": "https://www.nea.gov.cn/20261120/b5c5d572988c4171982367855f9a1b26/c.html"
+    },
+    {
+      "name": "私人充电桩保有量",
+      "status": "国家能源局月度发布（11-20）",
+      "value": 2010.8,
+      "unit": "万个",
+      "source_url": "https://www.nea.gov.cn/20261120/b5c5d572988c4171982367855f9a1b26/c.html"
+    },
+    {
+      "name": "虚拟电厂最大调节能力（截至6月底）",
+      "status": "国家能源局报告解读（11-19）",
+      "value": 2042.8,
+      "unit": "万千瓦",
+      "source_url": "https://www.nea.gov.cn/20261119/7504b3489a694054920e81f18fc3072f/c.html"
+    },
+    {
+      "name": "前9月新型储能新增装机（CESA口径）",
+      "status": "中信证券研报（SMM 11-23转述）",
+      "value": 111,
+      "unit": "GWh",
+      "source_url": "https://news.smm.cn/news/UYCSJXLH2RKGXZLOBI2CBYLTA2EJKMXS5S6IT4Y"
+    },
+    {
+      "name": "1-10月新能源汽车销量",
+      "status": "中汽协口径（财联社11-23转引）",
+      "value": 1441.1,
+      "unit": "万辆",
+      "source_url": "https://www.cls.cn/detail/2541308"
+    },
+    {
+      "name": "新能源占新车总销量比重（1-10月）",
+      "status": "中汽协口径（财联社11-23转引）",
+      "value": 54.8,
+      "unit": "%",
+      "source_url": "https://www.cls.cn/detail/2541308"
+    },
+    {
+      "name": "零跑汽车Q3净利润",
+      "status": "公司财报（财联社11-23报道）",
+      "value": 0.4,
+      "unit": "亿元",
+      "source_url": "https://www.cls.cn/detail/2541308"
+    },
+    {
+      "name": "小鹏汽车Q3净亏损",
+      "status": "公司财报（财联社11-23报道）",
+      "value": 8.7,
+      "unit": "亿元",
+      "source_url": "https://www.cls.cn/detail/2541308"
+    },
+    {
+      "name": "零跑汽车港股盘中跌幅",
+      "status": "11-23早盘盘中行情（财联社）",
+      "value": 13.06,
+      "unit": "%",
+      "source_url": "https://www.cls.cn/detail/2541200"
+    },
+    {
+      "name": "LG新能源产能利用率",
+      "status": "SMM英文站11-20报道",
+      "value": 57.1,
+      "unit": "%",
+      "source_url": "https://news.metal.com/newscontent/VRY334H7LZBQ4PPDR4CAEG2YGI3KQ5IRVSU3VGY-us-energy-storage-demand-boosts-korean-battery-makers-factory-utilization"
+    },
+    {
+      "name": "2024年全球固态电池专利申请量",
+      "status": "Appleyard Lees年度报告（pv magazine 11-21）",
+      "value": 2230,
+      "unit": "件",
+      "source_url": "https://www.pv-magazine.com/2026/11/21/battery-patents-solid-state-filings-surpass-lithium-ion-to-hit-record-high/"
+    }
+  ],
+  "sources": {
+    "policy": [
+      {
+        "title": "财联社汽车早报【11月23日】",
+        "summary": "崔东树11-22披露1-11月新能源车免税目录23228款、11月新增243款较年均大幅下滑；小鹏汇天A868全倾转电动飞行汽车倾转过渡试飞成功；雷克萨斯ES纯电版33.99万元起上市，宁德三元电芯、SiC电控、CLTC最高707km；极氪辟谣冒名召回短信。",
+        "url": "https://www.cls.cn/detail/2541149",
+        "published": "2026-11-23",
+        "source": "财联社",
+        "primary": true
+      }
+    ],
+    "market": [
+      {
+        "title": "【11.23锂电快讯】机构称降本增利 国内独立储能经济性拐点将至",
+        "summary": "中信证券研报：CESA口径前9月新型储能新增装机111GWh、同比增87%，碳酸锂较5月高点跌超10万元/吨，系统运行费分摊优化写入「十五五」新型储能规划；亿纬锂能刘金成谈锂电消费税出清（2027年一季度过渡期）；崔东树10月锂电池出口110亿美元、同比增57%；宁德福宁时代增资至50亿元。",
+        "url": "https://news.smm.cn/news/UYCSJXLH2RKGXZLOBI2CBYLTA2EJKMXS5S6IT4Y",
+        "published": "2026-11-23",
+        "source": "上海有色网SMM",
+        "primary": true
+      },
+      {
+        "title": "港股汽车股走弱 零跑汽车跌超13%",
+        "summary": "11月23日早盘：零跑汽车（09863.HK）盘中跌13.06%，小鹏汽车（09868.HK）跌8.36%，理想汽车（02015.HK）跌6.46%。",
+        "url": "https://www.cls.cn/detail/2541200",
+        "published": "2026-11-23",
+        "source": "财联社",
+        "primary": true
+      },
+      {
+        "title": "零跑汽车跌超13%领跌港股汽车股 车企账款调研与Q3盈利分化受关注",
+        "summary": "中汽协1-10月新能源产销1450.9万/1441.1万辆、同比增11.5%/11.3%、占新车销量54.8%；11月16日启动17家重点车企供应商账款支付调研；零跑Q3营收317.0亿元、净利0.4亿元、毛利率10.9%；小鹏Q3营收242.8亿元、净亏8.7亿元、上半年应付周转天数231.4天。",
+        "url": "https://www.cls.cn/detail/2541308",
+        "published": "2026-11-23",
+        "source": "财联社",
+        "primary": true
+      }
+    ],
+    "competitors": []
+  },
+  "search_text": "Energy Intelligence 读懂能源变化 2026-11-23 创刊号 能源日报。今日论点：能源定价逻辑从装机规模转向系统价值，虚拟电厂提前达标、独立储能经济性拐点临近、整车价格战利润再分配。虚拟电厂 中国虚拟电厂发展报告2026 国家能源局 592个项目 2042.8万千瓦 调节能力 2027年目标 2030年5000万千瓦 广州聚合充电站 车网互动 十五五新型电力系统规划。独立储能 中信证券 经济性拐点 111GWh 新增装机 同比87% 碳酸锂 10万元/吨 系统运行费分摊 锂电消费税 刘金成 亿纬锂能 2027年过渡期 宁德时代 福宁时代 增资50亿。新能源汽车 零跑汽车 Q3 净利润0.4亿 毛利率10.9% 营收317亿 小鹏汽车 净亏损8.7亿 交付11.84万 港股 跌13.06% 理想汽车 中汽协 1-10月 1441.1万辆 54.8% 供应商账款调研 17家车企 周转天数231.4天 崔东树 免税目录 锂电池出口110亿美元 汽车出口197亿美元 小鹏汇天 A868 飞行汽车 雷克萨斯ES纯电。动力电池 装车量 99.4GWh 675.6GWh 宁德时代 比亚迪 中创新航 国轩高科 集中度 61.1% 94.9% 三元 12.8GWh 磷酸铁锂 86.3GWh 86.9%。充电基础设施 2539.1万 公共桩528.3万 私人桩2010.8万 单枪功率51.37千瓦。海外储能 韩国电池 LG新能源 57.1% 三星SDI 78% SK On BNEF 美国ESS 91GWh 97GWh。固态电池 专利 2230件 Appleyard Lees Chris Mason 锂离子 2092件 钠离子 三星SDI 丰田。竞对 特来电 星星充电 云快充 今日无新增公开动态。"
+}

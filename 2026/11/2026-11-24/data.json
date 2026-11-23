@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T07:35:45+08:00",
+  "model": "Qoder",
+  "mode": "model",
+  "thesis": "电量在变便宜、能力在变贵：通榆同县同时长的构网型与常规独立储能EPC第一候选人单价1.04对0.90元/Wh（约15.6%溢价），周度统计里4h系统均价0.5494与4h EPC均价0.9501之间约0.40元/Wh的台阶把工程与安全冗余显性计价。充电侧同向：10月充电总电量同比增63.2%而1至10月公共桩增量同比降40.7%。12398通报首次把杜绝串通报价列入企业工作要求，发改委把调度重心放在资金支付与实物工作量，8000亿元新型政策性金融工具已全部投放并向算力、绿色与民间投资倾斜——可被验证的调节能力与安全边界正在从工程参数变成财务科目。",
+  "summary": "本期五条线：通榆200MW/800MWh构网型与250MW/1000MWh常规独立储能EPC同批公示，第一候选人单价1.04对0.90元/Wh；储能头条周分析显示4h系统均价0.5494元/Wh（最低0.4868由中车株洲所报出）、4h EPC均价0.9501、2h EPC均价0.9911，本周招中标39937.513MWh；中国充电联盟10月充电总电量132.2亿千瓦时同比增63.2%，公共桩1至10月增量56.6万个同比降40.7%，电量榜TOP15由滴滴充电领衔、特来电云快充星星充电列2至4位；12398通报10月接收投诉1568件、举报82件（承装许可43件）并要求杜绝串通报价；国家发改委11月20日视频会议调度督促政府投资资金支付与项目储备；人民日报报道8000亿元新型政策性金融工具截至10月底全部投放（国开3650亿元、49%投向AI与绿色低碳）；台山岛全国首个独立运行兆瓦级海岛微电网11月19日投运；华为LUTERRA完成行业首个含箱变子阵级燃烧测试。",
+  "relative_html": "2026/11/2026-11-24/Daily%20Intelligence.html",
+  "topics": [
+    "构网型储能溢价",
+    "独立储能EPC中标价格",
+    "储能系统均价",
+    "通榆储能中标候选人公示",
+    "盐池500MW/2000MWh储能",
+    "充电联盟月度充电电量榜",
+    "公共充电桩增量下滑",
+    "车网互动与虚拟电厂",
+    "12398能源监管热线通报",
+    "电力市场串通报价监管",
+    "承装（修、试）许可",
+    "政府投资资金支付使用",
+    "实物工作量考核",
+    "8000亿元新型政策性金融工具",
+    "算电协同与绿色算力",
+    "乌兰察布零碳智算中心",
+    "海岛微电网",
+    "氨氢燃料电池应急发电",
+    "华为LUTERRA构网型储能",
+    "储能燃烧测试与安全标准"
+  ],
+  "quote": {
+    "english": "Traceability documentation and audit rights should be defined as contractual deliverables.",
+    "speaker": "Allan Oduor, Enertis Applus+",
+    "chinese": "可追溯性文件与审计权，应当被界定为合同交付物。",
+    "source_url": "https://www.pv-magazine.com/2026-11-23/burden-of-proof/"
+  },
+  "markets": [
+    {
+      "name": "周分析·4h储能系统最低报价（中车株洲所，华润沙坡头）",
+      "value": 0.4868,
+      "unit": "元/Wh",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·4h储能系统均价（8个有效报价）",
+      "value": 0.5494,
+      "unit": "元/Wh",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·4h储能系统最高报价（宁德时代）",
+      "value": 0.575,
+      "unit": "元/Wh",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·2h储能系统有效报价（富沾800MWh项目）",
+      "value": 0.615,
+      "unit": "元/Wh",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·4h储能EPC最低报价（潜山河西新区）",
+      "value": 0.7208,
+      "unit": "元/Wh",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·2h储能EPC最低报价（红寺堡昌隆）",
+      "value": 0.875,
+      "unit": "元/Wh",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·4h储能EPC均价（11个有效报价）",
+      "value": 0.9501,
+      "unit": "元/Wh",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·2h储能EPC均价（9个有效报价）",
+      "value": 0.9911,
+      "unit": "元/Wh",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·4h储能EPC最高报价（天祝祁原）",
+      "value": 1.0893,
+      "unit": "元/Wh",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·2h储能EPC最高报价（广州番禺化龙）",
+      "value": 1.28,
+      "unit": "元/Wh",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·储能系统投标报价区间上限",
+      "value": 0.667,
+      "unit": "元/Wh",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·本周招中标总规模",
+      "value": 39937.513,
+      "unit": "兆瓦时",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·本周启动招标项目数",
+      "value": 40,
+      "unit": "个",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "周分析·本周开标项目数",
+      "value": 33,
+      "unit": "个",
+      "status": "储能头条周分析（样本期2026-11-14至11-20，不含集采框采）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml"
+    },
+    {
+      "name": "通榆250MW/1000MWh常规独立储能EPC·第一候选人单价（中国三冶）",
+      "value": 0.9,
+      "unit": "元/Wh",
+      "status": "中标候选人公示（2026-11-23披露）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60250.shtml"
+    },
+    {
+      "name": "通榆常规独立储能EPC·第二候选人单价（瑞远实业）",
+      "value": 0.9001,
+      "unit": "元/Wh",
+      "status": "中标候选人公示（2026-11-23披露）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60250.shtml"
+    },
+    {
+      "name": "通榆常规独立储能EPC·第三候选人单价（正然实业）",
+      "value": 0.90008,
+      "unit": "元/Wh",
+      "status": "中标候选人公示（2026-11-23披露）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60250.shtml"
+    },
+    {
+      "name": "通榆200MW/800MWh构网型独立储能EPC·第一候选人单价（吉林电力勘测设计院）",
+      "value": 1.04,
+      "unit": "元/Wh",
+      "status": "构网型中标候选人公示（2026-11-23披露）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60249.shtml"
+    },
+    {
+      "name": "通榆构网型独立储能EPC·第二候选人单价（水电一局）",
+      "value": 1.0563,
+      "unit": "元/Wh",
+      "status": "构网型中标候选人公示（2026-11-23披露）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60249.shtml"
+    },
+    {
+      "name": "通榆构网型独立储能EPC·第三候选人单价（河南华能联合）",
+      "value": 1.0363,
+      "unit": "元/Wh",
+      "status": "构网型中标候选人公示（2026-11-23披露）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60249.shtml"
+    },
+    {
+      "name": "通榆构网型项目与常规项目第一候选人单价差",
+      "value": 0.14,
+      "unit": "元/Wh",
+      "status": "本期按两份公示同口径计算",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60249.shtml"
+    },
+    {
+      "name": "盐池果下恒源独立储能·公示规模",
+      "value": 2000,
+      "unit": "兆瓦时",
+      "status": "EPC中标候选人公示（评标2026-11-20）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60252.shtml"
+    },
+    {
+      "name": "10月全国充电总电量",
+      "value": 132.2,
+      "unit": "亿千瓦时",
+      "status": "中国充电联盟2026-11-20发布",
+      "source_url": "https://mchd.in-en.com/html/chd-2463397.shtml"
+    },
+    {
+      "name": "截至10月底全国充电枪总数",
+      "value": 2539.1,
+      "unit": "万个",
+      "status": "中国充电联盟2026-11-20发布",
+      "source_url": "https://mchd.in-en.com/html/chd-2463397.shtml"
+    },
+    {
+      "name": "截至10月底公共充电桩数量",
+      "value": 528.3,
+      "unit": "万个",
+      "status": "中国充电联盟2026-11-20发布",
+      "source_url": "https://mchd.in-en.com/html/chd-2463397.shtml"
+    },
+    {
+      "name": "1至10月公共充电设施增量",
+      "value": 56.6,
+      "unit": "万个",
+      "status": "中国充电联盟2026-11-20发布",
+      "source_url": "https://mchd.in-en.com/html/chd-2463397.shtml"
+    },
+    {
+      "name": "1至10月充电基础设施增量",
+      "value": 529.9,
+      "unit": "万个",
+      "status": "中国充电联盟2026-11-20发布",
+      "source_url": "https://mchd.in-en.com/html/chd-2463397.shtml"
+    },
+    {
+      "name": "公共桩额定总功率",
+      "value": 2.71,
+      "unit": "亿千瓦",
+      "status": "中国充电联盟2026-11-20发布",
+      "source_url": "https://mchd.in-en.com/html/chd-2463397.shtml"
+    },
+    {
+      "name": "公共桩单枪平均功率",
+      "value": 51.37,
+      "unit": "千瓦",
+      "status": "中国充电联盟2026-11-20发布",
+      "source_url": "https://mchd.in-en.com/html/chd-2463397.shtml"
+    },
+    {
+      "name": "10月12398热线接收投诉",
+      "value": 1568,
+      "unit": "件",
+      "status": "国家能源局12398月度通报",
+      "source_url": "https://www.nea.gov.cn/20261123/f45493a56f914b1792a2521509aa5a4a/c.html"
+    },
+    {
+      "name": "10月12398热线接收举报问题线索",
+      "value": 82,
+      "unit": "件",
+      "status": "国家能源局12398月度通报",
+      "source_url": "https://www.nea.gov.cn/20261123/f45493a56f914b1792a2521509aa5a4a/c.html"
+    },
+    {
+      "name": "10月涉承装（修、试）许可举报",
+      "value": 43,
+      "unit": "件",
+      "status": "国家能源局12398月度通报",
+      "source_url": "https://www.nea.gov.cn/20261123/f45493a56f914b1792a2521509aa5a4a/c.html"
+    },
+    {
+      "name": "10月投诉申诉率",
+      "value": 6.07,
+      "unit": "%",
+      "status": "国家能源局12398月度通报",
+      "source_url": "https://www.nea.gov.cn/20261123/f45493a56f914b1792a2521509aa5a4a/c.html"
+    },
+    {
+      "name": "2026年新型政策性金融工具投放总额",
+      "value": 8000,
+      "unit": "亿元",
+      "status": "人民日报调研报道（截至10月底全部完成投放）",
+      "source_url": "https://www.news.cn/fortune/20261123/148b3a2de8e743ab9336850ca96a8475/c.html"
+    },
+    {
+      "name": "国开新型政策性金融工具投放额",
+      "value": 3650,
+      "unit": "亿元",
+      "status": "人民日报调研报道（全部用于补充项目资本金）",
+      "source_url": "https://www.news.cn/fortune/20261123/148b3a2de8e743ab9336850ca96a8475/c.html"
+    },
+    {
+      "name": "国开工具投向AI、数字经济与绿色低碳资金",
+      "value": 1790.1,
+      "unit": "亿元",
+      "status": "人民日报调研报道（截至10月底）",
+      "source_url": "https://www.news.cn/fortune/20261123/148b3a2de8e743ab9336850ca96a8475/c.html"
+    },
+    {
+      "name": "国开工具投向民间投资相关项目资金",
+      "value": 1279.9,
+      "unit": "亿元",
+      "status": "人民日报调研报道（截至10月底）",
+      "source_url": "https://www.news.cn/fortune/20261123/148b3a2de8e743ab9336850ca96a8475/c.html"
+    },
+    {
+      "name": "国开工具投向AI与绿色低碳资金占比",
+      "value": 49,
+      "unit": "%",
+      "status": "人民日报调研报道（截至10月底）",
+      "source_url": "https://www.news.cn/fortune/20261123/148b3a2de8e743ab9336850ca96a8475/c.html"
+    },
+    {
+      "name": "国开工具投向民间投资资金占比",
+      "value": 35.1,
+      "unit": "%",
+      "status": "人民日报调研报道（截至10月底）",
+      "source_url": "https://www.news.cn/fortune/20261123/148b3a2de8e743ab9336850ca96a8475/c.html"
+    },
+    {
+      "name": "世纪互联乌兰察布三期项目整体融资需求",
+      "value": 24,
+      "unit": "亿元",
+      "status": "人民日报调研报道（“超过24亿元”口径下限）",
+      "source_url": "https://www.news.cn/fortune/20261123/148b3a2de8e743ab9336850ca96a8475/c.html"
+    },
+    {
+      "name": "山东愉悦集团人工血管项目资本金工具金额",
+      "value": 4670,
+      "unit": "万元",
+      "status": "进出口银行投放（期限7年）",
+      "source_url": "https://www.news.cn/fortune/20261123/148b3a2de8e743ab9336850ca96a8475/c.html"
+    },
+    {
+      "name": "湖北荆州九丰智慧农业项目工具投放",
+      "value": 1.57,
+      "unit": "亿元",
+      "status": "农发行2026年9月投放（项目总投资15.76亿元）",
+      "source_url": "https://www.news.cn/fortune/20261123/148b3a2de8e743ab9336850ca96a8475/c.html"
+    },
+    {
+      "name": "台山岛微电网总装机",
+      "value": 1.5,
+      "unit": "兆瓦",
+      "status": "国家电网报报道（2026-11-19投运）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60254.shtml"
+    },
+    {
+      "name": "台山岛项目年均发电量",
+      "value": 120,
+      "unit": "万千瓦时",
+      "status": "国家电网报报道（为岛上当前年发电量3倍）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60254.shtml"
+    },
+    {
+      "name": "台山岛氨氢应急发电系统度电燃料成本",
+      "value": 2,
+      "unit": "元/千瓦时",
+      "status": "国家电网报报道（“不超过2元”口径上限）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60254.shtml"
+    },
+    {
+      "name": "台山岛氨氢系统较柴油发电燃料成本降幅",
+      "value": 45,
+      "unit": "%",
+      "status": "国家电网报报道（节约45%以上，口径下限）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60254.shtml"
+    },
+    {
+      "name": "华为燃烧测试箱体间距",
+      "value": 0.6,
+      "unit": "米",
+      "status": "华为数字能源发布（2026-10-30完成测试）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60236.shtml"
+    },
+    {
+      "name": "华为燃烧测试持续过火时长",
+      "value": 80,
+      "unit": "小时",
+      "status": "华为数字能源发布（2026-10-30完成测试）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60236.shtml"
+    },
+    {
+      "name": "华为燃烧测试箱变含油量",
+      "value": 5,
+      "unit": "吨",
+      "status": "华为数字能源发布（满油状态外部引燃）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60236.shtml"
+    },
+    {
+      "name": "华为测试期间储能箱电芯温度上限",
+      "value": 26,
+      "unit": "摄氏度",
+      "status": "华为数字能源发布（“低于26℃”口径上限）",
+      "source_url": "https://mchuneng.in-en.com/html/chunengy-60236.shtml"
+    }
+  ],
+  "sources": {
+    "policy": [
+      {
+        "title": "国家能源局12398能源监管热线投诉举报处理情况通报（2026年10月）",
+        "summary": "10月接收投诉1568件、应办结1664件且及时办结率100%、接收申诉98件（投诉申诉率6.07%）、举报问题线索82件（承装许可43件、新能源并网21件、电力交易2件）；四项工作要求首次把杜绝串通报价、操纵市场列入，并通报杭州某企业违规出借承装许可证被立案。",
+        "url": "https://www.nea.gov.cn/20261123/f45493a56f914b1792a2521509aa5a4a/c.html",
+        "published": "2026-11-23",
+        "source": "国家能源局",
+        "primary": true
+      },
+      {
+        "title": "国家发展改革委召开视频会议调度督促政府投资资金支付使用和项目储备工作",
+        "summary": "11月20日召开视频会议，岳修虎副主任出席、肖渭明副秘书长主持，通报各地政府投资资金支付使用和重大项目储备工作情况，浙江、河南、广东、黑龙江、安徽、陕西6省交流发言；要求加快项目建设和资金支付、尽快形成更多实物工作量、提高项目储备质效。新闻稿未公开投资总量数据。",
+        "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202611/t20261123_1409044.html",
+        "published": "2026-11-23",
+        "source": "国家发展改革委（投资司）",
+        "primary": true
+      }
+    ],
+    "market": [
+      {
+        "title": "价格走势：4h储能系统均价0.5494元/Wh；2hEPC均价0.9911元/Wh；本周39.94GWh储能招中标项目【储能·周分析】",
+        "summary": "储能头条第225期周分析，样本期11月14日至20日：招中标总规模39937.513MWh，40个项目招标、33个开标；系统报价0.4868至0.667元/Wh、EPC报价0.7208至1.28元/Wh；4h系统均价0.5494、2h系统1个报价0.615、4h EPC均价0.9501、2h EPC均价0.9911。",
+        "url": "https://mchuneng.in-en.com/html/chunengy-60210.shtml",
+        "published": "2026-11-23",
+        "source": "国际储能网（储能头条）",
+        "primary": true
+      },
+      {
+        "title": "中标 | 1.0363~1.0563元/Wh！吉林省白城市通榆县200MW/800MWh电网侧构网型独立储能电站中标候选人公示",
+        "summary": "通榆福轲能源200MW/800MWh构网型独立储能EPC：第一候选人中国电建集团吉林省电力勘测设计院83199.97万元、1.04元/Wh；第二候选人水电一局1.0563元/Wh；第三候选人河南华能联合1.0363元/Wh。来源为中国招标投标公共服务平台。",
+        "url": "https://mchuneng.in-en.com/html/chunengy-60249.shtml",
+        "published": "2026-11-23",
+        "source": "国际储能网（中国招标投标公共服务平台）",
+        "primary": true
+      },
+      {
+        "title": "中标 | 0.9~0.9001元/Wh！吉林省白城市通榆县250MW/1000MWh独立储能电站中标候选人公示",
+        "summary": "同县通榆星源储能250MW/1000MWh独立储能示范项目EPC：第一候选人中国三冶90000万元、0.9元/Wh；第二候选人瑞远实业0.9001元/Wh；第三候选人正然实业0.90008元/Wh，未要求构网型能力。",
+        "url": "https://mchuneng.in-en.com/html/chunengy-60250.shtml",
+        "published": "2026-11-23",
+        "source": "国际储能网（中国招标投标公共服务平台）",
+        "primary": true
+      },
+      {
+        "title": "中标 | 果下恒源500MW/2000MWh电网侧新型独立储能电站EPC总承包中标候选人公示",
+        "summary": "宁夏吴忠盐池县高沙窝镇500MW/2000MWh（4小时）独立储能EPC于11月20日完成评标、11月23日公示，第一候选人为中建八局西南建设与中国电建宁夏工程联合体；配套330kV升压站接入北地750kV变电站，公示期11月20日至23日。",
+        "url": "https://mchuneng.in-en.com/html/chunengy-60252.shtml",
+        "published": "2026-11-23",
+        "source": "国际储能网（惠泽招电子招投标交易平台）",
+        "primary": true
+      },
+      {
+        "title": "全国首个独立运行的兆瓦级海岛微电网在福建台山岛投运",
+        "summary": "据国家电网报，11月19日福鼎台山岛海岛微电网投运：风光储氢氨一体化，3台100千瓦风机、最大500千瓦光伏、600千瓦锂电储能、百千瓦移动式氨氢燃料电池与5千瓦氢储能，总装机1.5兆瓦；年均发电120万千瓦时（为当前3倍），氨氢系统度电燃料成本不超过2元/千瓦时、较柴油节约45%以上。",
+        "url": "https://mchuneng.in-en.com/html/chunengy-60254.shtml",
+        "published": "2026-11-23",
+        "source": "国际储能网（国家电网报）",
+        "primary": true
+      },
+      {
+        "title": "华为圆满完成LUTERRA™构网型储能行业首个子阵级（含箱变）大规模燃烧测试",
+        "summary": "10月30日完成、SGS组织实施：按0.6米箱体间距搭建子阵、贯穿式母线连接，外部引燃5吨满油箱变，全程无人工干预；持续燃烧80小时、火场最高温近1000℃，储能箱电芯温度低于26℃、相邻箱变油温低于28℃。INERIS按法国AMPG 2925-2定义条件并验证结果，Corsica Sole全程见证。",
+        "url": "https://mchuneng.in-en.com/html/chunengy-60236.shtml",
+        "published": "2026-11-23",
+        "source": "华为数字能源（国际储能网转载）",
+        "primary": true
+      },
+      {
+        "title": "8000亿元“金融活水”投向了哪些项目",
+        "summary": "人民日报11月23日刊发对三家政策性银行的调研：截至10月底2026年8000亿元新型政策性金融工具全部完成投放；国开已投放3650亿元、全部用于补充项目资本金，其中AI、数字经济与绿色低碳1790.1亿元占49%、民间投资1279.9亿元占35.1%；案例含乌兰察布世纪互联三期（融资需求超24亿元、10天内完成审批投放）、山东愉悦集团人工血管（4670万元、7年期）与荆州九丰智慧农业（1.57亿元）。",
+        "url": "https://www.news.cn/fortune/20261123/148b3a2de8e743ab9336850ca96a8475/c.html",
+        "published": "2026-11-23",
+        "source": "新华网（人民日报）",
+        "primary": true
+      }
+    ],
+    "competitors": [
+      {
+        "title": "滴滴充电、特来电、云快充、星星充电、海汇德居前五！2026年10月公共充电设施运营商月充电电量TOP15出炉",
+        "summary": "中国充电联盟11月20日发布10月运行情况，运营商按月度充电电量排序：滴滴充电、特来电、云快充、星星充电、海汇德居前五，广汽能源第8、南方电网第12、万马爱充第14、蔚来第15；10月全国充电总电量132.2亿千瓦时同比增63.2%，1至10月公共桩增量56.6万个同比降40.7%，公共桩单枪平均功率约51.37千瓦。",
+        "url": "https://mchd.in-en.com/html/chd-2463397.shtml",
+        "published": "2026-11-23",
+        "source": "国际充换电网（中国充电联盟）",
+        "primary": true
+      }
+    ]
+  },
+  "search_text": "Energy Intelligence 读懂能源变化 2026-11-24 能源日报。今日论点：电量变便宜、能力变贵，构网型与安全边界被单独计价。通榆 构网型独立储能EPC 1.04元/Wh 中国电建吉林电力勘测设计院 福轲能源 200MW/800MWh 常规项目0.90元/Wh 中国三冶 250MW/1000MWh 溢价15.6%。储能头条周分析 11月14日至20日 4h系统均价0.5494 中车株洲所0.4868 华润沙坡头 宁德时代0.575 渭源 榆中 2h系统0.615 富沾新能源 4h EPC均价0.9501 潜山0.7208 天祝1.0893 2h EPC均价0.9911 红寺堡0.875 番禺化龙1.28 39937.513MWh 40个招标 33个开标。盐池 果下恒源 500MW/2000MWh 高沙窝镇 330kV升压站 北地750kV 中建八局西南 中电建宁夏 评标11月20日。中国充电联盟 10月充电总电量132.2亿千瓦时 同比增63.2% 环比6.0% 滴滴充电 特来电 云快充 星星充电 海汇德 TOP15 广汽能源 南方电网 蔚来 万马爱充 公共桩528.3万个 同比增16.5% 充电枪2539.1万个 同比36.2% 1至10月公共桩增量56.6万个 同比降40.7% 额定总功率2.71亿千瓦 单枪平均功率51.37千瓦。12398热线 10月通报 投诉1568件 国网1172 南网279 举报82件 承装许可43件 新能源并网21件 电力交易2件 申诉率6.07% 杜绝串通报价 操纵市场 迎峰度冬 杭州许可证出借立案。国家发改委 政府投资资金支付使用和项目储备工作视频会议 岳修虎 肖渭明 实物工作量 6省交流发言 浙江 河南 广东 黑龙江 安徽 陕西。8000亿元新型政策性金融工具 全部完成投放 国开行3650亿元 1366个项目 人工智能 数字经济 绿色低碳1790.1亿元 占49% 民间投资1279.9亿元 占35.1% 世纪互联 乌兰察布 察哈尔高新区 零碳智算中心 三期融资超24亿元 10天审批投放 刘沅昆 郝春宇 愉悦集团 人工血管 4670万元 7年 荆州九丰智慧农业1.57亿元。台山岛 福鼎 全国首个独立运行兆瓦级海岛微电网 11月19日投运 风光储氢氨一体化 600千瓦锂电 百千瓦氨氢燃料电池 5千瓦氢储能 1.5兆瓦 年均发电120万千瓦时 度电燃料成本不超过2元 节约45%。华为 LUTERRA 构网型储能 子阵级含箱变燃烧测试 SGS INERIS AMPG 2925-2 Corsica Sole 0.6米箱间距 5吨满油 80小时 1000摄氏度 电芯低于26摄氏度 2026年10月30日。Quote Allan Oduor Enertis Applus+ 可追溯性文件 审计权 合同交付物 FEOC One Big Beautiful Bill Act 原产地证书。"
+}

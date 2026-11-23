@@ -196,5 +196,178 @@
       "competitors": []
     },
     "search_text": "Energy Intelligence 读懂能源变化 2026-11-23 创刊号 能源日报。今日论点：能源定价逻辑从装机规模转向系统价值，虚拟电厂提前达标、独立储能经济性拐点临近、整车价格战利润再分配。虚拟电厂 中国虚拟电厂发展报告2026 国家能源局 592个项目 2042.8万千瓦 调节能力 2027年目标 2030年5000万千瓦 广州聚合充电站 车网互动 十五五新型电力系统规划。独立储能 中信证券 经济性拐点 111GWh 新增装机 同比87% 碳酸锂 10万元/吨 系统运行费分摊 锂电消费税 刘金成 亿纬锂能 2027年过渡期 宁德时代 福宁时代 增资50亿。新能源汽车 零跑汽车 Q3 净利润0.4亿 毛利率10.9% 营收317亿 小鹏汽车 净亏损8.7亿 交付11.84万 港股 跌13.06% 理想汽车 中汽协 1-10月 1441.1万辆 54.8% 供应商账款调研 17家车企 周转天数231.4天 崔东树 免税目录 锂电池出口110亿美元 汽车出口197亿美元 小鹏汇天 A868 飞行汽车 雷克萨斯ES纯电。动力电池 装车量 99.4GWh 675.6GWh 宁德时代 比亚迪 中创新航 国轩高科 集中度 61.1% 94.9% 三元 12.8GWh 磷酸铁锂 86.3GWh 86.9%。充电基础设施 2539.1万 公共桩528.3万 私人桩2010.8万 单枪功率51.37千瓦。海外储能 韩国电池 LG新能源 57.1% 三星SDI 78% SK On BNEF 美国ESS 91GWh 97GWh。固态电池 专利 2230件 Appleyard Lees Chris Mason 锂离子 2092件 钠离子 三星SDI 丰田。竞对 特来电 星星充电 云快充 今日无新增公开动态。"
+  },
+  {
+    "schema_version": 1,
+    "date": "2026-11-22",
+    "generated_at": "2026-11-23T12:18:06+08:00",
+    "model": "gpt-5.6-sol",
+    "mode": "model",
+    "thesis": "能源转型的竞争重心正在从单点产品转向链条与曲线：国内电力交易进入按小时谈曲线的精细化阶段，出海竞争考验企业把技术、产能与合规链条整体落地的能力。",
+    "summary": "截至10月底全国充电枪总数2539.1万个、私人桩增速42.5%领跑；新能源全面入市后电力交易进入算小时时代；萤火虫Haven特别版奥斯陆欧洲首秀、10月交付7738辆创新高；荷兰法院对比亚迪Ti7发出欧盟临时禁令；小鹏汇天A868完成中国首个全尺寸倾转过渡试飞；竞对周末静默。",
+    "relative_html": "2026/11/2026-11-22/Daily%20Intelligence.html",
+    "topics": [
+      "充电基础设施",
+      "电力市场化",
+      "固态电池",
+      "新能源汽车出海",
+      "飞行汽车",
+      "基本金属长单"
+    ],
+    "quote": {
+      "english": "The energy transition is not a product you buy. It is a chain you build.",
+      "speaker": "Logan Lu（上海有色网 SMM CEO）",
+      "chinese": "能源转型不是一件买来的产品，而是一条建起来的链条。",
+      "source_url": "https://news.metal.com/newscontent/3ZY76GHI4UNPMD5XLZ5TVCWIOMKGS2VUQXMHRKY-smm-conference-asss-2026-bringing-indonesias-solar-storage-ecosystem-together-to-turn-targets-into-projects"
+    },
+    "markets": [
+      {
+        "name": "萤火虫2026年1月交付量",
+        "status": "actual",
+        "value": 2807,
+        "unit": "辆",
+        "source_url": "https://cnevpost.com/2026/11/22/nio-firefly-debuts-haven-edition-oslo-spring-2027-launch-europe/"
+      },
+      {
+        "name": "萤火虫2026年2月交付量",
+        "status": "actual",
+        "value": 2657,
+        "unit": "辆",
+        "source_url": "https://cnevpost.com/2026/11/22/nio-firefly-debuts-haven-edition-oslo-spring-2027-launch-europe/"
+      },
+      {
+        "name": "萤火虫2026年3月交付量",
+        "status": "actual",
+        "value": 6119,
+        "unit": "辆",
+        "source_url": "https://cnevpost.com/2026/11/22/nio-firefly-debuts-haven-edition-oslo-spring-2027-launch-europe/"
+      },
+      {
+        "name": "萤火虫2026年4月交付量",
+        "status": "actual",
+        "value": 4980,
+        "unit": "辆",
+        "source_url": "https://cnevpost.com/2026/11/22/nio-firefly-debuts-haven-edition-oslo-spring-2027-launch-europe/"
+      },
+      {
+        "name": "萤火虫2026年5月交付量",
+        "status": "actual",
+        "value": 5663,
+        "unit": "辆",
+        "source_url": "https://cnevpost.com/2026/11/22/nio-firefly-debuts-haven-edition-oslo-spring-2027-launch-europe/"
+      },
+      {
+        "name": "萤火虫2026年6月交付量",
+        "status": "actual",
+        "value": 6946,
+        "unit": "辆",
+        "source_url": "https://cnevpost.com/2026/11/22/nio-firefly-debuts-haven-edition-oslo-spring-2027-launch-europe/"
+      },
+      {
+        "name": "萤火虫2026年7月交付量",
+        "status": "actual",
+        "value": 5771,
+        "unit": "辆",
+        "source_url": "https://cnevpost.com/2026/11/22/nio-firefly-debuts-haven-edition-oslo-spring-2027-launch-europe/"
+      },
+      {
+        "name": "萤火虫2026年8月交付量",
+        "status": "actual",
+        "value": 5852,
+        "unit": "辆",
+        "source_url": "https://cnevpost.com/2026/11/22/nio-firefly-debuts-haven-edition-oslo-spring-2027-launch-europe/"
+      },
+      {
+        "name": "萤火虫2026年9月交付量",
+        "status": "actual",
+        "value": 7327,
+        "unit": "辆",
+        "source_url": "https://cnevpost.com/2026/11/22/nio-firefly-debuts-haven-edition-oslo-spring-2027-launch-europe/"
+      },
+      {
+        "name": "萤火虫2026年10月交付量",
+        "status": "actual",
+        "value": 7738,
+        "unit": "辆",
+        "source_url": "https://cnevpost.com/2026/11/22/nio-firefly-debuts-haven-edition-oslo-spring-2027-launch-europe/"
+      },
+      {
+        "name": "全国充电枪总数（截至2026年10月底）",
+        "status": "actual",
+        "value": 2539.1,
+        "unit": "万个",
+        "source_url": "https://www.cls.cn/detail/2540726"
+      },
+      {
+        "name": "公共充电枪数量（截至2026年10月底）",
+        "status": "actual",
+        "value": 528.3,
+        "unit": "万个",
+        "source_url": "https://www.cls.cn/detail/2540726"
+      },
+      {
+        "name": "私人充电枪数量（截至2026年10月底）",
+        "status": "actual",
+        "value": 2010.8,
+        "unit": "万个",
+        "source_url": "https://www.cls.cn/detail/2540726"
+      }
+    ],
+    "sources": {
+      "policy": [
+        {
+          "title": "新能源全面入市后，电力交易进入「算小时」时代",
+          "summary": "136号文推动新能源全面入市后，电力交易颗粒度细化到小时级曲线；2025年国网经营区新能源市场化交易电量10718亿千瓦时首破万亿，差价结算与虚拟电厂聚合入市成为焦点。",
+          "url": "https://m.21jingji.com/article/20261121/herald/c60afaefc4a30c01fe74ad51bd838062.html",
+          "published": "2026-11-21",
+          "source": "21世纪经济报道",
+          "primary": true
+        }
+      ],
+      "market": [
+        {
+          "title": "财联社汽车早报【11月21日】",
+          "summary": "10月底充电枪总数2539.1万个、同比增36.2%，私人桩增速42.5%领跑；固态电池蓝皮书预计混合固液2026年出货11.4GWh；零跑Q3营收317亿元并与欧宝合作开发C级SUV。",
+          "url": "https://www.cls.cn/detail/2540726",
+          "published": "2026-11-21",
+          "source": "财联社",
+          "primary": true
+        },
+        {
+          "title": "SMM：2026年基本金属价格回顾与2027年长单展望——铜铝铅锌锡",
+          "summary": "2026年铜价受AI需求预期降温与宏观压制先扬后抑；Codelco对中国长单溢价反超欧洲居全球首位，锌长单溢价上浮扩大，中东减产推高亚洲铝长协溢价。",
+          "url": "https://news.smm.cn/news/P6GMVHSY6DKZSOAT3BNSABNACAFRWQLJESQZ6ZQ",
+          "published": "2026-11-22",
+          "source": "上海有色网SMM",
+          "primary": true
+        },
+        {
+          "title": "中国第一家！小鹏「电动版鱼鹰」A868试飞成功 能坐6人飞500公里",
+          "summary": "小鹏汇天A868完成全尺寸全倾转电动飞行汽车倾转过渡试飞，为中国第一家；六旋翼全倾转布局，设计续航超500公里、最大航速超360公里/小时，六座。",
+          "url": "https://news.mydrivers.com/1/1167/1167606.htm",
+          "published": "2026-11-22",
+          "source": "快科技",
+          "primary": true
+        },
+        {
+          "title": "Nio Firefly debuts Haven special edition in Oslo, plans spring 2027 launch in Europe",
+          "summary": "萤火虫Haven特别版在奥斯陆完成欧洲首秀，计划2027年春在欧洲上市；10月交付7738辆、同比增30.89%，连续第二个月创月度新高，前十个月累计55860辆。",
+          "url": "https://cnevpost.com/2026/11/22/nio-firefly-debuts-haven-edition-oslo-spring-2027-launch-europe/",
+          "published": "2026-11-22",
+          "source": "CnEVPost",
+          "primary": true
+        },
+        {
+          "title": "Dutch court bars EU sales of BYD Ti7, citing infringement of Land Rover Defender design rights",
+          "summary": "海牙地区法院裁定比亚迪Ti7侵犯路虎卫士欧盟外观设计权并发临时禁令，禁止欧盟销售与匈牙利生产，不覆盖英国；比亚迪称独立设计并将上诉。",
+          "url": "https://cnevpost.com/2026/11/22/dutch-court-bars-eu-sales-byd-ti7-land-rover-defender-design/",
+          "published": "2026-11-22",
+          "source": "CnEVPost",
+          "primary": true
+        }
+      ],
+      "competitors": []
+    },
+    "search_text": "Energy Intelligence 2026-11-22 充电枪 2539.1万 私人桩 电力市场化 算小时 136号文 固态电池 混合固液 11.4GWh 零跑 欧宝 萤火虫 Haven 奥斯陆 7738 比亚迪 Ti7 荷兰 禁令 小鹏汇天 A868 倾转过渡 基本金属 长单 Codelco 特来电 星星充电 竞对静默"
   }
 ]

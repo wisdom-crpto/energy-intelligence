@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -eu
 
-PAGES_REPO_DIR="${PAGES_REPO_DIR:-/Users/wisdom/Projects/dailyintelligence-energy/pages-repo}"
+PAGES_REPO_DIR="${PAGES_REPO_DIR:-/Users/ykc/Projects/dailyintelligence-energy/pages-repo}"
 REMOTE_URL="${GITHUB_PAGES_REMOTE:-https://github.com/wisdom-crpto/energy-intelligence.git}"
 BRANCH="${GITHUB_PAGES_BRANCH:-main}"
 GIT_BIN="${GIT_BIN:-git}"

@@ -1,0 +1,174 @@
+import datetime as dt
+import json
+import tempfile
+import unittest
+from pathlib import Path
+from unittest.mock import patch
+from homepage_renderer import _index_html, _style_reader_page, _report_html, SECRET_RE
+from editorial_summaries import issue_hash, load_summaries, periods
+from refresh_homepage import main
+
+
+def records():
+    end = dt.date(2026, 10, 5)
+    return [dict(date=(d := end - dt.timedelta(days=i)).isoformat(),
+                 relative_html=f'{d:%Y/%m/%Y-%m-%d}/Daily%20Intelligence.html',
+                 thesis='测试主题', summary='测试摘要', topics=['测试']) for i in range(100)]
+
+
+def fixture(root, rows):
+    dates = sorted(r['date'] for r in rows)
+    for d in dates:
+        p = root / d[:4] / d[5:7] / d / 'Daily Intelligence.md'
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text('合成测试正文 ' + d)
+    def entry(start, end):
+        sources = [d for d in dates if start <= d <= end]
+        result = dict(start=start, end=end, title='综合主题', overview='结合各期内容后的综合判断',
+                    card_title='读懂变化', card_deck='用简短导读，呈现重要联系。',
+                    items=[dict(heading='重点', body='具体事件、意义和证据边界',
+                                source_dates=[sources[0]]) for _ in range(3)],
+                    watch='待验证的问题', source_hashes={d: issue_hash(root,d) for d in sources})
+        window_days = (dt.date.fromisoformat(end) - dt.date.fromisoformat(start)).days + 1
+        if len(sources) < window_days:
+            result['coverage_note'] = '本周期归档不全，综合仅覆盖已有期数。'
+        return result
+    anchor = dt.date.fromisoformat(dates[-1])
+    data = dict(schema_version=1, generated_at='2026-10-06T07:00:00+08:00',
+                daily={d:entry(d,d) for d in dates[-7:]},
+                weekly=[entry(a,b) for a,b in periods(anchor)
+                        if any(a <= d <= b for d in dates)],
+                monthly=[entry(a,b) for a,b in periods(anchor,True)
+                         if any(a <= d <= b for d in dates)])
+    (root/'homepage-summaries.json').write_text(json.dumps(data))
+    return data
+
+
+class HomepageTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.root = Path(self.temp.name)
+        self.rows = records()
+        self.data = fixture(self.root,self.rows)
+    def tearDown(self):
+        self.temp.cleanup()
+
+    def test_render_and_backfill_order(self):
+        page = _index_html(self.rows, load_summaries(self.root,self.rows))
+        self.assertEqual(page.count('class="daily-card"'), 7)
+        self.assertEqual(page.count('class="editorial-card"'), 7)
+        self.assertNotIn('阅读周期回顾', page)
+        self.assertIn('接下来值得留意', page)
+        period_section = page.split('<section id="weekly">')[1].split('<details id="archive"')[0]
+        self.assertNotIn('<h3>2026', period_section)
+        for label in ('已归档日报', '最新一期', '月份覆盖'):
+            self.assertNotIn(label, page)
+        self.assertIn('class="primary-cta" href="2026/10/2026-10-05/Daily%20Intelligence.html"', page)
+        self.assertEqual(page, _index_html(list(reversed(self.rows)),self.data))
+        self.assertEqual(periods(dt.date(2026,1,5),True)[0],('2025-12-01','2025-12-31'))
+        self.assertEqual(periods(dt.date(2024,3,5),True)[0],('2024-02-01','2024-02-29'))
+
+    def test_check_no_writes_and_write_idempotent(self):
+        target = self.root/'index.html'
+        target.write_text('stale')
+        with patch('refresh_homepage._archive_records', return_value=(self.rows, [])):
+            with patch('sys.argv', ['refresh', '--archive', str(self.root), '--check']):
+                self.assertEqual(main(), 2)
+                self.assertEqual(target.read_text(), 'stale')
+            with patch('sys.argv', ['refresh', '--archive', str(self.root), '--write']):
+                self.assertEqual(main(), 0)
+                stamp = target.stat().st_mtime_ns
+                self.assertEqual(main(), 0)
+                self.assertEqual(stamp, target.stat().st_mtime_ns)
+            with patch('sys.argv', ['refresh', '--archive', str(self.root), '--check']):
+                self.assertEqual(main(), 0)
+
+    def test_source_revision_requires_editorial_review(self):
+        p = self.root/'2026/09/2026-09-01/Daily Intelligence.md'
+        p.write_text('后续修正内容')
+        with self.assertRaisesRegex(ValueError,'source changed'):
+            load_summaries(self.root,self.rows)
+
+    def test_missing_daily_or_period_rejected(self):
+        for key in ['daily','weekly']:
+            data = json.loads(json.dumps(self.data))
+            if key == 'daily':
+                del data['daily']['2026-10-05']
+            else:
+                data['weekly'] = data['weekly'][1:]
+            (self.root/'homepage-summaries.json').write_text(json.dumps(data))
+            with self.assertRaisesRegex(ValueError,'Write the'):
+                load_summaries(self.root,self.rows)
+
+    def test_launch_empty_period_windows_render_placeholder(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            end = dt.date(2026, 10, 5)
+            rows = [dict(date=(d := end - dt.timedelta(days=i)).isoformat(),
+                         relative_html=f'{d:%Y/%m/%Y-%m-%d}/Daily%20Intelligence.html',
+                         thesis='测试主题', summary='测试摘要', topics=['测试'])
+                    for i in range(3)]
+            fixture(root, rows)
+            summaries = load_summaries(root, rows)
+            # Only the newest week holds archives; every month window is empty.
+            self.assertEqual(len(summaries['weekly']), 1)
+            self.assertEqual(summaries['monthly'], [])
+            page = _index_html(rows, summaries)
+            self.assertEqual(page.count('class="editorial-card"'), 7)
+            self.assertEqual(page.count('暂无归档期数'), 6)
+            self.assertIn('创刊筹备中', page)
+            # Windows that do contain archives keep strict fingerprint checks.
+            p = root/'2026/10/2026-10-03/Daily Intelligence.md'
+            p.write_text('后续修正内容')
+            with self.assertRaisesRegex(ValueError, 'source changed'):
+                load_summaries(root, rows)
+
+    def test_every_source_and_in_period_citation_required(self):
+        data = json.loads(json.dumps(self.data))
+        del data['monthly'][0]['source_hashes']['2026-09-01']
+        (self.root/'homepage-summaries.json').write_text(json.dumps(data))
+        with self.assertRaisesRegex(ValueError,'all available'):
+            load_summaries(self.root,self.rows)
+        self.data['weekly'][0]['items'][0]['source_dates']=['2026-01-01']
+        (self.root/'homepage-summaries.json').write_text(json.dumps(self.data))
+        with self.assertRaisesRegex(ValueError,'outside'):
+            load_summaries(self.root,self.rows)
+
+    def test_prose_escaped_and_company_slug_not_a_key(self):
+        self.data['daily']['2026-10-05']['card_title']='<script>alert(1)</script>'
+        self.assertIn('&lt;script&gt;', _index_html(self.rows,self.data))
+        self.assertIsNone(SECRET_RE.search('https://example.org/ai-sk-hynix-samsung-memory-market'))
+        self.assertIsNotNone(SECRET_RE.search('sk-proj-' + 'x'*30))
+
+    def test_reader_shell_is_idempotent_and_preserves_article(self):
+        article = '<main><h1>日报</h1><p>正文。保留原文标点。</p><a href="source">来源</a></main>'
+        source = '<html><head></head><body>' + article + '</body></html>'
+        result = _style_reader_page(source)
+        self.assertIn(article, result)
+        self.assertEqual(result, _style_reader_page(result))
+        self.assertEqual(result.count('class="reader-nav"'), 1)
+
+    def test_title_punctuation_does_not_allow_old_style(self):
+        self.data['daily']['2026-10-05']['card_title'] = '读懂变化。'
+        (self.root/'homepage-summaries.json').write_text(json.dumps(self.data))
+        with self.assertRaisesRegex(ValueError, 'periods'):
+            load_summaries(self.root, self.rows)
+
+    def test_action_items_render_as_separate_numbered_entries(self):
+        page = _report_html('## Action Items\n1. **定义**边界。\n2. **盘点**风险。\n\n## Sources\n- 原始来源\n', 'Test')
+        section = page.split('<h2>Action Items</h2>')[1].split('<h2>Sources</h2>')[0]
+        self.assertIn('<ol class="action-items">', section)
+        self.assertEqual(section.count('<li>'), 2)
+        self.assertIn('<strong>定义</strong>', section)
+        self.assertNotIn('<p>1.', section)
+        self.assertIn('<h2>Sources</h2><ul>', page)
+
+    def test_numbered_continuation_and_list_type_changes(self):
+        page = _report_html('## Action Items\n1. 项目一\n   延续提示。\n\n2. 项目二\n- 独立项目\n\n后续段落。', 'Test')
+        self.assertIn('<li>项目一 延续提示。</li>', page)
+        self.assertIn('<ol class="action-items" start="2">', page)
+        self.assertIn('</ol><ul class="action-items">', page)
+
+
+if __name__ == '__main__':
+    unittest.main()

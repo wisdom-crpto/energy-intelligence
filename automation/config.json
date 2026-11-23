@@ -1,0 +1,74 @@
+{
+  "brand": "Energy Intelligence",
+  "model": "gpt-5.6-sol",
+  "lookback_hours": 48,
+  "max_items_per_report": 24,
+  "feeds": {
+    "policy": [
+      {
+        "name": "Google News · 发改委 能源",
+        "url": "https://news.google.com/rss/search?q=%E5%8F%91%E6%94%B9%E5%A7%94+%E8%83%BD%E6%BA%90+when%3A2d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 国家能源局",
+        "url": "https://news.google.com/rss/search?q=%E5%9B%BD%E5%AE%B6%E8%83%BD%E6%BA%90%E5%B1%80+when%3A2d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 车网互动 V2G",
+        "url": "https://news.google.com/rss/search?q=%E8%BD%A6%E7%BD%91%E4%BA%92%E5%8A%A8+OR+V2G+when%3A7d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 虚拟电厂",
+        "url": "https://news.google.com/rss/search?q=%E8%99%9A%E6%8B%9F%E7%94%B5%E5%8E%82+when%3A7d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 电力现货市场",
+        "url": "https://news.google.com/rss/search?q=%E7%94%B5%E5%8A%9B%E7%8E%B0%E8%B4%A7+when%3A7d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 充电基础设施政策",
+        "url": "https://news.google.com/rss/search?q=%E5%85%85%E7%94%B5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD+%E6%94%BF%E7%AD%96+when%3A7d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 136号文 新能源上网电价",
+        "url": "https://news.google.com/rss/search?q=136%E5%8F%B7%E6%96%87+OR+%E6%96%B0%E8%83%BD%E6%BA%90%E4%B8%8A%E7%BD%91%E7%94%B5%E4%BB%B7+when%3A7d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      }
+    ],
+    "market": [
+      {
+        "name": "Google News · 动力电池",
+        "url": "https://news.google.com/rss/search?q=%E5%8A%A8%E5%8A%9B%E7%94%B5%E6%B1%A0+when%3A2d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 储能",
+        "url": "https://news.google.com/rss/search?q=%E5%82%A8%E8%83%BD+when%3A2d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 充电桩",
+        "url": "https://news.google.com/rss/search?q=%E5%85%85%E7%94%B5%E6%A1%A9+when%3A2d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 新能源汽车销量",
+        "url": "https://news.google.com/rss/search?q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6+%E9%94%80%E9%87%8F+when%3A7d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 电网投资",
+        "url": "https://news.google.com/rss/search?q=%E7%94%B5%E7%BD%91+%E6%8A%95%E8%B5%84+when%3A7d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "Google News · 特来电",
+        "url": "https://news.google.com/rss/search?q=%E7%89%B9%E6%9D%A5%E7%94%B5+when%3A7d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 星星充电",
+        "url": "https://news.google.com/rss/search?q=%E6%98%9F%E6%98%9F%E5%85%85%E7%94%B5+when%3A7d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      },
+      {
+        "name": "Google News · 云快充",
+        "url": "https://news.google.com/rss/search?q=%E4%BA%91%E5%BF%AB%E5%85%85+when%3A7d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans"
+      }
+    ]
+  }
+}

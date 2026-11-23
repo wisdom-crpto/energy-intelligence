@@ -4,3 +4,5 @@
 .project-profile.yaml
 AGENTS.md
 CURRENT.md
+__pycache__/
+*.pyc

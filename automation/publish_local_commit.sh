@@ -2,7 +2,7 @@
 set -eu
 
 PAGES_REPO_DIR="${PAGES_REPO_DIR:-/Users/wisdom/Projects/dailyintelligence-energy/pages-repo}"
-REMOTE_URL="${GITHUB_PAGES_REMOTE:-https://github.com/wisdom-crpto/dailyintelligence-energy.git}"
+REMOTE_URL="${GITHUB_PAGES_REMOTE:-https://github.com/wisdom-crpto/energy-intelligence.git}"
 BRANCH="${GITHUB_PAGES_BRANCH:-main}"
 GIT_BIN="${GIT_BIN:-git}"
 PUBLISH_NETWORK_ATTEMPTS="${PUBLISH_NETWORK_ATTEMPTS:-3}"

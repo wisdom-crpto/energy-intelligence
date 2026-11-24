@@ -1,6 +1,666 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-11-25",
+    "generated_at": "2026-11-25T07:34:40+08:00",
+    "model": "Qoder",
+    "mode": "model",
+    "thesis": "能力必须先过“可验证”这一关，才谈得上被定价：智光电气5兆瓦构网储能短路比模拟装置把弱电网支撑变成SCR 1至10可复现的试验条件，NESO拟把英国辅助服务日前拍卖拆成12个分区、同一服务可在不同分区清算出不同价格，而Fluence以89亿美元在手订单创纪录的同时承认收入因合同制造延迟而与上年持平。规划端同向：山东把7500万千瓦分布式与450万充电桩的配电网接入能力、3000万千瓦新型储能与400万千瓦虚拟电厂可调规模写成2030年指标，国家能源局10月新增建档立卡3218个项目中3162个是工商业分布式。昨日问“谁来核验”，今天的稀缺项已从拿到订单转向证明并交付能力。",
+    "summary": "本期以“验证与交付”为主线：国家能源局10月新增建档立卡3218个项目中工商业分布式占98.3%、前五省集中73.7%；山东“十五五”规划把7500万千瓦分布式与450万充电桩接入能力、3000万千瓦新型储能、800万千瓦抽蓄、400万千瓦虚拟电厂写成2030年指标；绿色交通“十五五”规划要求公路源网荷储充一体化、新增非化石能源装机600万千瓦以上并启动充电服务能力“三年倍增”；智光发布短路比1至10的5兆瓦构网储能模拟装置，易事特200MW/800MWh并网、水电一局中标甘肃400MW/1600MWh；海外Fluence订单89亿美元对营收23亿美元、NESO提出12分区辅助服务采购。特来电、星星充电、云快充本期无可核实一手动态，按静默日处理。",
+    "relative_html": "2026/11/2026-11-25/Daily%20Intelligence.html",
+    "topics": [
+      "新能源新增建档立卡结构",
+      "工商业分布式占比",
+      "山东十五五新型能源体系规划",
+      "配电网承载能力",
+      "虚拟电厂可调容量",
+      "绿色交通十五五规划",
+      "源网荷储充一体化",
+      "充电设施三年倍增",
+      "构网储能短路比试验",
+      "并网检测产能",
+      "易事特九墩滩储能并网",
+      "水电一局甘肃储能中标",
+      "330千伏储能汇集站",
+      "天津铁塔充电桩集采",
+      "充换电运营企业目录",
+      "Fluence订单积压",
+      "储能合同制造延迟",
+      "NESO分区辅助服务采购",
+      "辅助服务位置信号",
+      "充电运营商静默日"
+    ],
+    "quote": {
+      "english": "we are well-positioned to execute on growing our revenue over the next few years",
+      "speaker": "Axel Meier, Fluence interim CEO",
+      "chinese": "凭借 89 亿美元的在手订单，我们已具备在未来几年推动营收增长的有利条件。",
+      "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+    },
+    "markets": [
+      {
+        "name": "全国新增建档立卡新能源发电项目总数（2026年10月）",
+        "value": 3218,
+        "unit": "个",
+        "status": "国家能源局公告，制发2026-11-24",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "其中风电项目",
+        "value": 22,
+        "unit": "个",
+        "status": "国家能源局公告，制发2026-11-24",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "其中光伏发电项目",
+        "value": 3194,
+        "unit": "个",
+        "status": "国家能源局公告，制发2026-11-24",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "其中集中式光伏发电项目",
+        "value": 32,
+        "unit": "个",
+        "status": "国家能源局公告，制发2026-11-24",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "其中工商业分布式光伏发电项目",
+        "value": 3162,
+        "unit": "个",
+        "status": "国家能源局公告，制发2026-11-24",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "其中生物质发电项目",
+        "value": 2,
+        "unit": "个",
+        "status": "国家能源局公告，制发2026-11-24",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "广东新增建档立卡项目",
+        "value": 1120,
+        "unit": "个",
+        "status": "国家能源局公告分省表",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "江苏新增建档立卡项目",
+        "value": 423,
+        "unit": "个",
+        "status": "国家能源局公告分省表",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "山东新增建档立卡项目",
+        "value": 389,
+        "unit": "个",
+        "status": "国家能源局公告分省表",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "浙江新增建档立卡项目",
+        "value": 286,
+        "unit": "个",
+        "status": "国家能源局公告分省表",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "云南新增建档立卡项目",
+        "value": 155,
+        "unit": "个",
+        "status": "国家能源局公告分省表",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "湖南新增建档立卡项目",
+        "value": 133,
+        "unit": "个",
+        "status": "国家能源局公告分省表",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "福建新增建档立卡项目",
+        "value": 129,
+        "unit": "个",
+        "status": "国家能源局公告分省表",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "安徽新增建档立卡项目",
+        "value": 120,
+        "unit": "个",
+        "status": "国家能源局公告分省表",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "河北新增建档立卡项目",
+        "value": 106,
+        "unit": "个",
+        "status": "国家能源局公告分省表",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "工商业分布式占光伏新增项目比重",
+        "value": 99.0,
+        "unit": "%",
+        "status": "按公告数字3162/3194计算",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "工商业分布式占全部新增项目比重",
+        "value": 98.3,
+        "unit": "%",
+        "status": "按公告数字3162/3218计算",
+        "source_url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html"
+      },
+      {
+        "name": "山东配电网可承载分布式新能源",
+        "value": 7500,
+        "unit": "万千瓦",
+        "status": "山东“十五五”规划2030年目标，发布会实录",
+        "source_url": "https://mchd.in-en.com/html/chd-2463415.shtml"
+      },
+      {
+        "name": "山东新型储能装机",
+        "value": 3000,
+        "unit": "万千瓦",
+        "status": "山东“十五五”规划2030年目标（3000万千瓦左右）",
+        "source_url": "https://mchd.in-en.com/html/chd-2463415.shtml"
+      },
+      {
+        "name": "山东在运抽水蓄能装机",
+        "value": 800,
+        "unit": "万千瓦",
+        "status": "山东“十五五”规划2030年目标（800万千瓦左右）",
+        "source_url": "https://mchd.in-en.com/html/chd-2463415.shtml"
+      },
+      {
+        "name": "山东虚拟电厂可调规模",
+        "value": 400,
+        "unit": "万千瓦",
+        "status": "山东“十五五”规划2030年目标（400万千瓦以上）",
+        "source_url": "https://mchd.in-en.com/html/chd-2463415.shtml"
+      },
+      {
+        "name": "山东配电网可接入充电基础设施",
+        "value": 450,
+        "unit": "万个",
+        "status": "山东“十五五”规划2030年目标",
+        "source_url": "https://mchd.in-en.com/html/chd-2463415.shtml"
+      },
+      {
+        "name": "山东非化石能源发电装机",
+        "value": 20000,
+        "unit": "万千瓦",
+        "status": "山东“十五五”规划2030年目标（2亿千瓦左右）",
+        "source_url": "https://mchd.in-en.com/html/chd-2463415.shtml"
+      },
+      {
+        "name": "山东全省发电装机",
+        "value": 14000,
+        "unit": "万千瓦",
+        "status": "山东“十五五”规划2030年目标（超1.4亿千瓦）",
+        "source_url": "https://mchd.in-en.com/html/chd-2463415.shtml"
+      },
+      {
+        "name": "山东新能源利用率下限",
+        "value": 90,
+        "unit": "%",
+        "status": "山东“十五五”规划要求保持在90%以上",
+        "source_url": "https://mchd.in-en.com/html/chd-2463415.shtml"
+      },
+      {
+        "name": "公路与能源融合发展区新增非化石能源发电装机",
+        "value": 600,
+        "unit": "万千瓦",
+        "status": "绿色交通“十五五”规划目标（600万千瓦以上）",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60271.shtml"
+      },
+      {
+        "name": "“一箱制”集装箱铁水联运量",
+        "value": 1000,
+        "unit": "万标箱",
+        "status": "绿色交通“十五五”规划2030年目标",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60271.shtml"
+      },
+      {
+        "name": "沿海港口多式联运港区铁路进港率",
+        "value": 80,
+        "unit": "%",
+        "status": "绿色交通“十五五”规划2030年目标",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60271.shtml"
+      },
+      {
+        "name": "电动汽车充电设施服务能力提升行动周期",
+        "value": 3,
+        "unit": "年",
+        "status": "绿色交通“十五五”规划“三年倍增”行动",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60271.shtml"
+      },
+      {
+        "name": "智光电气构网储能接入电网短路比模拟装置容量",
+        "value": 5,
+        "unit": "兆瓦",
+        "status": "2026-11-20发布，企业稿11-24刊发",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60278.shtml"
+      },
+      {
+        "name": "模拟装置短路比覆盖下限",
+        "value": 1,
+        "unit": "SCR",
+        "status": "企业稿披露的模拟范围下限",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60278.shtml"
+      },
+      {
+        "name": "模拟装置短路比覆盖上限",
+        "value": 10,
+        "unit": "SCR",
+        "status": "企业稿披露的模拟范围上限",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60278.shtml"
+      },
+      {
+        "name": "全国风电光伏累计装机（截至2026年9月底）",
+        "value": 20,
+        "unit": "亿千瓦",
+        "status": "企业稿援引口径",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60278.shtml"
+      },
+      {
+        "name": "易事特武威九墩滩独立储能项目功率",
+        "value": 200,
+        "unit": "兆瓦",
+        "status": "企业披露并网，2026-11-24",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60265.shtml"
+      },
+      {
+        "name": "易事特武威九墩滩独立储能项目能量",
+        "value": 800,
+        "unit": "兆瓦时",
+        "status": "企业披露并网，2026-11-24",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60265.shtml"
+      },
+      {
+        "name": "易事特九墩滩项目储能放电时长",
+        "value": 4,
+        "unit": "小时",
+        "status": "按200MW/800MWh配置",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60265.shtml"
+      },
+      {
+        "name": "易事特自研液冷集成单元功率",
+        "value": 6.7,
+        "unit": "兆瓦",
+        "status": "企业披露",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60265.shtml"
+      },
+      {
+        "name": "易事特自研液冷集成单元容量",
+        "value": 26.8,
+        "unit": "兆瓦时",
+        "status": "企业披露",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60265.shtml"
+      },
+      {
+        "name": "易事特液冷系统电芯温差控制上限",
+        "value": 3,
+        "unit": "摄氏度",
+        "status": "企业披露控制在3摄氏度以内",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60265.shtml"
+      },
+      {
+        "name": "易事特PCS最高转换效率",
+        "value": 99,
+        "unit": "%",
+        "status": "企业披露",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60265.shtml"
+      },
+      {
+        "name": "易事特电芯循环寿命下限",
+        "value": 8000,
+        "unit": "次",
+        "status": "企业披露8000次以上",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60265.shtml"
+      },
+      {
+        "name": "水电一局中标甘肃独立储能合计功率",
+        "value": 400,
+        "unit": "兆瓦",
+        "status": "渭源200MW与榆中200MW合计",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60270.shtml"
+      },
+      {
+        "name": "水电一局中标甘肃独立储能合计能量",
+        "value": 1600,
+        "unit": "兆瓦时",
+        "status": "渭源800MWh与榆中800MWh合计",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60270.shtml"
+      },
+      {
+        "name": "水电一局渭源项目功率",
+        "value": 200,
+        "unit": "兆瓦",
+        "status": "定西市渭源县独立储能EPC",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60270.shtml"
+      },
+      {
+        "name": "水电一局渭源项目能量",
+        "value": 800,
+        "unit": "兆瓦时",
+        "status": "定西市渭源县独立储能EPC",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60270.shtml"
+      },
+      {
+        "name": "水电一局榆中项目功率",
+        "value": 200,
+        "unit": "兆瓦",
+        "status": "兰州市榆中县独立储能EPC",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60270.shtml"
+      },
+      {
+        "name": "水电一局榆中项目能量",
+        "value": 800,
+        "unit": "兆瓦时",
+        "status": "兰州市榆中县独立储能EPC",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60270.shtml"
+      },
+      {
+        "name": "水电一局榆中项目新建储能汇集站电压等级",
+        "value": 330,
+        "unit": "千伏",
+        "status": "企业披露配套汇集站",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60270.shtml"
+      },
+      {
+        "name": "水电一局榆中项目汇集站主变容量",
+        "value": 240,
+        "unit": "MVA",
+        "status": "企业披露配置1台主变",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60270.shtml"
+      },
+      {
+        "name": "水电一局榆中项目35千伏集电线路回数",
+        "value": 8,
+        "unit": "回",
+        "status": "企业披露",
+        "source_url": "https://mchuneng.in-en.com/html/chunengy-60270.shtml"
+      },
+      {
+        "name": "天津铁塔2026至2027年充电桩补充采购不含税预算",
+        "value": 540,
+        "unit": "万元",
+        "status": "11-18中标候选人公示，11-24转载",
+        "source_url": "https://mchd.in-en.com/html/chd-2463414.shtml"
+      },
+      {
+        "name": "天津铁塔第一名中标份额预估金额",
+        "value": 324,
+        "unit": "万元",
+        "status": "份额60%对应预估金额",
+        "source_url": "https://mchd.in-en.com/html/chd-2463414.shtml"
+      },
+      {
+        "name": "天津铁塔第二名中标份额预估金额",
+        "value": 216,
+        "unit": "万元",
+        "status": "份额40%对应预估金额",
+        "source_url": "https://mchd.in-en.com/html/chd-2463414.shtml"
+      },
+      {
+        "name": "天津铁塔第一候选人折扣报价",
+        "value": 86,
+        "unit": "%",
+        "status": "积成智通折扣报价",
+        "source_url": "https://mchd.in-en.com/html/chd-2463414.shtml"
+      },
+      {
+        "name": "天津铁塔第三候选人折扣报价",
+        "value": 83,
+        "unit": "%",
+        "status": "盛弘电气折扣报价",
+        "source_url": "https://mchd.in-en.com/html/chd-2463414.shtml"
+      },
+      {
+        "name": "天津铁塔前置仓库备货比例下限",
+        "value": 10,
+        "unit": "%",
+        "status": "招标公告要求不低于招标标的10%",
+        "source_url": "https://mchd.in-en.com/html/chd-2463414.shtml"
+      },
+      {
+        "name": "天津铁塔近三年同类设备销售业绩门槛",
+        "value": 800,
+        "unit": "万元",
+        "status": "招标公告业绩要求",
+        "source_url": "https://mchd.in-en.com/html/chd-2463414.shtml"
+      },
+      {
+        "name": "六盘水首批公示充换电基础设施运营企业",
+        "value": 1,
+        "unit": "家",
+        "status": "11-23市能源局公示，11-24转载",
+        "source_url": "https://mchd.in-en.com/html/chd-2463440.shtml"
+      },
+      {
+        "name": "Fluence在手订单额（截至2026-09-30）",
+        "value": 89,
+        "unit": "亿美元",
+        "status": "公司财报，上年同期53亿美元",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence财年营收",
+        "value": 23,
+        "unit": "亿美元",
+        "status": "公司与上年同期均为23亿美元",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence财年净亏损",
+        "value": 2.739,
+        "unit": "亿美元",
+        "status": "公司财报披露",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence在手订单功率",
+        "value": 16.8,
+        "unit": "吉瓦",
+        "status": "2025年同期为9.1吉瓦",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence在手订单功率同比增幅",
+        "value": 84.6,
+        "unit": "%",
+        "status": "9.1吉瓦增至16.8吉瓦",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence累计部署功率",
+        "value": 8.1,
+        "unit": "吉瓦",
+        "status": "公司披露累计部署8.1吉瓦/20.8吉瓦时",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence累计部署能量",
+        "value": 20.8,
+        "unit": "吉瓦时",
+        "status": "公司披露",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence项目管线能量",
+        "value": 169.4,
+        "unit": "吉瓦时",
+        "status": "总管线44.5吉瓦/169.4吉瓦时",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence订单中美国市场占比",
+        "value": 70,
+        "unit": "%",
+        "status": "公司披露",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence订单中数据中心占比",
+        "value": 10,
+        "unit": "%",
+        "status": "公司披露",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence服务协议覆盖资产",
+        "value": 6.9,
+        "unit": "吉瓦",
+        "status": "上年同期5.6吉瓦",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence服务订单储备",
+        "value": 10.1,
+        "unit": "吉瓦",
+        "status": "公司披露",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence数字软件合同覆盖资产",
+        "value": 24.1,
+        "unit": "吉瓦",
+        "status": "2025年同期22吉瓦",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence年度经常性收入",
+        "value": 1.712,
+        "unit": "亿美元",
+        "status": "公司披露约1.712亿美元",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "Fluence休斯顿工厂日产集成单元",
+        "value": 10,
+        "unit": "台",
+        "status": "公司披露约10台/日",
+        "source_url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/"
+      },
+      {
+        "name": "NESO拟设辅助服务拍卖分区数",
+        "value": 12,
+        "unit": "个",
+        "status": "分区方案（苏格兰3区、英格兰与威尔士9区）",
+        "source_url": "https://www.ess-news.com/2026-11-24/uk-grid-operator-plans-locational-procurement-for-ancillary-services/"
+      },
+      {
+        "name": "NESO方案中苏格兰分区数",
+        "value": 3,
+        "unit": "个",
+        "status": "分区方案",
+        "source_url": "https://www.ess-news.com/2026-11-24/uk-grid-operator-plans-locational-procurement-for-ancillary-services/"
+      },
+      {
+        "name": "NESO方案中英格兰与威尔士分区数",
+        "value": 9,
+        "unit": "个",
+        "status": "分区方案",
+        "source_url": "https://www.ess-news.com/2026-11-24/uk-grid-operator-plans-locational-procurement-for-ancillary-services/"
+      }
+    ],
+    "sources": {
+      "policy": [
+        {
+          "title": "关于2026年10月全国新增建档立卡新能源发电（不含户用光伏）项目情况的公告",
+          "summary": "国家能源局11月24日制发：10月新增建档立卡新能源发电项目3218个，风电22个、光伏3194个（集中式32个、工商业分布式3162个）、生物质2个；分省表显示广东1120个、江苏423个、山东389个、浙江286个、云南155个。",
+          "url": "https://www.nea.gov.cn/20261124/a4cfe5ac7f8440b2a2376b428dffd2da/c.html",
+          "published": "2026-11-24",
+          "source": "国家能源局",
+          "primary": true
+        },
+        {
+          "title": "山东：2030年配电网具备450万个充电设施接入能力",
+          "summary": "山东省人民政府新闻办公室11月23日“开局起步‘十五五’”发布会实录（11月24日刊发）：《山东省新型能源体系建设“十五五”规划》提出到2030年配电网具备7500万千瓦分布式新能源、450万个充电基础设施接入能力，新型储能3000万千瓦左右、在运抽蓄800万千瓦左右、虚拟电厂可调规模400万千瓦以上，新能源利用率保持在90%以上。",
+          "url": "https://mchd.in-en.com/html/chd-2463415.shtml",
+          "published": "2026-11-24",
+          "source": "山东省人民政府新闻办公室",
+          "primary": true
+        },
+        {
+          "title": "绿色交通“十五五”规划：鼓励清洁能源开发配套储能设施，推动源网荷储充项目建设",
+          "summary": "交通运输部等四部门《绿色交通发展“十五五”规划》（文件落款2026年8月10日，转载稿导语称11月20日印发，11月24日公开转载）：推动公路沿线源网荷储充一体化与清洁能源开发配套新型储能，建设光储充一体化公路走廊与全域公路能源融合发展区，新增非化石能源发电装机600万千瓦以上，开展充电设施服务能力“三年倍增”行动。",
+          "url": "https://mchuneng.in-en.com/html/chunengy-60271.shtml",
+          "published": "2026-11-24",
+          "source": "交通运输部",
+          "primary": true
+        }
+      ],
+      "market": [
+        {
+          "title": "智光电气技术5MW构网储能接入电网短路比模拟装置，破解弱电网测试难题",
+          "summary": "智光电气股份11月24日披露：5兆瓦构网储能接入电网短路比模拟装置于11月20日发布，可在短路比1至10范围内模拟电网强弱，采用环氧浇筑高压铁心电抗器；稿中援引截至今年9月底我国风电光伏累计装机突破20亿千瓦。",
+          "url": "https://mchuneng.in-en.com/html/chunengy-60278.shtml",
+          "published": "2026-11-24",
+          "source": "智光电气股份",
+          "primary": true
+        },
+        {
+          "title": "200MW/800MWh！易事特九墩滩独立储能项目并网成功",
+          "summary": "易事特11月24日披露：甘肃武威凉州区九墩滩200MW/800MWh独立储能项目并网，采用自研6.7MW/26.8MWh液冷集成单元，电芯温差3摄氏度以内，PCS最高转换效率99%，循环寿命8000次以上；并网时点表述为“近日”，未披露具体日期。",
+          "url": "https://mchuneng.in-en.com/html/chunengy-60265.shtml",
+          "published": "2026-11-24",
+          "source": "易事特",
+          "primary": true
+        },
+        {
+          "title": "中标 | 水电一局中标甘肃新型独立储能电站EPC总承包项目",
+          "summary": "水电一局11月24日披露：连续中标甘肃定西渭源县200MW/800MWh与兰州榆中县200MW/800MWh独立储能EPC，合计400MW/1600MWh，组串式交直流一体化；榆中需新建330千伏储能汇集站1座、240MVA主变1台与8回35千伏集电线路。",
+          "url": "https://mchuneng.in-en.com/html/chunengy-60270.shtml",
+          "published": "2026-11-24",
+          "source": "水电一局",
+          "primary": true
+        },
+        {
+          "title": "天津铁塔2026-2027年充电桩补充采购项目中标候选公示：积成智通、永联科技、盛弘电气入围",
+          "summary": "国际充换电网11月24日转载铁塔能源天津分公司11月18日中标候选人公示：不含税预算540万元，取2名中标人（份额60%对40%，预估324万元与216万元），候选人折扣报价86%、86%、83%，要求前置备货比例不低于10%、近三年同类业绩累计不少于800万元。",
+          "url": "https://mchd.in-en.com/html/chd-2463414.shtml",
+          "published": "2026-11-24",
+          "source": "中国铁塔在线商务平台（充换电头条转载）",
+          "primary": true
+        },
+        {
+          "title": "贵州六盘水市首批电动汽车充换电运营企业名单公示",
+          "summary": "国际充换电网11月24日转载六盘水市能源局11月23日公示：2026年第一批电动汽车充（换）电基础设施运营企业中，六盘水市公共交通有限公司列入名单，公示期满无异议自动纳入运营企业目录。",
+          "url": "https://mchd.in-en.com/html/chd-2463440.shtml",
+          "published": "2026-11-24",
+          "source": "六盘水市能源局（国际充换电网转载）",
+          "primary": true
+        },
+        {
+          "title": "Fluence reports $8.9 billion order backlog, revenue hit by shipment delays",
+          "summary": "ESS News 11月24日报道Fluence截至2026年9月30日财年：在手订单89亿美元（上年53亿美元）、订单功率16.8吉瓦（增幅84.6%）、管线44.5吉瓦/169.4吉瓦时，营收23亿美元持平、净亏损2.739亿美元，主因合同制造工厂爬坡导致发货延迟，休斯顿工厂日产约10台。",
+          "url": "https://www.ess-news.com/2026-11-24/fluence-reports-8-9-billion-order-backlog-revenue-hit-by-shipment-delays/",
+          "published": "2026-11-24",
+          "source": "Energy-Storage.news (ESS News)",
+          "primary": true
+        },
+        {
+          "title": "UK grid operator plans locational procurement for ancillary services",
+          "summary": "ESS News 11月24日报道：NESO拟在日前辅助服务拍卖中引入位置采购，按输电边界设12个分区（苏格兰3区、英格兰与威尔士9区），覆盖动态响应与备用市场；新参与者须提交位置信息、单体与聚合单元须落在同一分区，咨询期截至2027年1月8日。",
+          "url": "https://www.ess-news.com/2026-11-24/uk-grid-operator-plans-locational-procurement-for-ancillary-services/",
+          "published": "2026-11-24",
+          "source": "Energy-Storage.news (ESS News)",
+          "primary": true
+        }
+      ],
+      "competitors": []
+    },
+    "search_text": "能源日报 2026-11-25 验证 交付 承载力 构网 短路比 SCR 模拟装置 智光电气 5兆瓦 弱电网 并网检测 国家能源局 建档立卡 2026年10月 3218个 工商业分布式 3162个 集中式光伏 32个 风电 22个 生物质 2个 广东1120 江苏423 山东389 浙江286 云南155 河南零 可再生能源发电项目信息管理平台 山东 十五五 新型能源体系 规划 7500万千瓦 450万个充电基础设施 接入能力 新型储能3000万千瓦 抽水蓄能800万千瓦 虚拟电厂400万千瓦 新能源利用率90% 非化石能源2亿千瓦 发电装机1.4亿千瓦 车网互动 零碳园区 绿电直连 分时电价 绿色交通 十五五 规划 交通运输部 源网荷储充 光储充一体化 公路走廊 河西走廊 京新高速 青银高速 600万千瓦 三年倍增 大功率充电 服务区 外电扩容 智能微电网 光储直柔 新能源重卡 铁水联运1000万标箱 进港率80% 机场场内车辆电动化 易事特 九墩滩 200MW 800MWh 独立储能 并网 液冷 6.7MW 26.8MWh 电芯温差3摄氏度 PCS效率99% 循环寿命8000次 水电一局 甘肃 渭源 榆中 独立储能 EPC 中标 400MW 1600MWh 组串式 交直流一体化 330千伏 汇集站 240MVA 35千伏 集电线路 天津铁塔 铁塔能源 充电桩 采购 中标候选 积成智通 永联科技 盛弘电气 540万元 折扣报价 86% 83% 前置备货 800万元业绩 六盘水 充换电运营企业 目录 公示 公共交通 Fluence 储能 订单积压 8.9 billion 16.8 GW 84.6% 2.3 billion revenue net loss 273.9 million Houston 10 units per day contract manufacturer shipment delays 8.1 GW 20.8 GWh 44.5 GW 169.4 GWh data centers 10% US 70% 7.5 MWh Smartstack tax credits Axel Meier interim CEO Julian Nebreda 服务合同 6.9 GW 软件 24.1 GW NESO 英国 分区 采购 ancillary services locational procurement 12 zones Dynamic Response Reserve day-ahead auction co-optimized 单一分区 注册 咨询 2027年1月8日 阻塞 收益 特来电 星星充电 云快充 特锐德 300001 万帮数字能源 静默日 预中标国网 公告检索 充电联盟 月充电电量 TOP15 构网型溢价 0.14元/Wh 能力计价 承载力 检测产能 交付瓶颈 能源情报 Energy Intelligence"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-11-24",
     "generated_at": "2026-11-24T07:35:45+08:00",
     "model": "Qoder",

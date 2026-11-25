@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T07:51:28+08:00",
+  "model": "Qoder",
+  "mode": "model",
+  "thesis": "装机与利用率剪刀差成为新的起点：截至10月底全国发电装机41.6亿千瓦、同比增长10.9%，1—10月平均利用小时2406小时、同比减少214小时。同日披露的两份2027年度文件把计价对象从电量转向可用能力——山东以鲁发改能源〔2026〕868号建立发电侧可靠容量补偿机制，按全年系统顶峰时段可持续稳定供电容量核定，把煤电、气电与符合条件的电网侧独立新型储能纳入同一补偿池，费用由全体工商业用户分摊；浙江规定中长期交易电量占比不低于90%、煤电浮动不超过20%、现货实施二级限价。加上江苏24个电网侧独立储能须于2027年10月底前投运、宁夏西岭750千伏工程11月24日投运，2027年的竞争项是顶峰时段的可用性，而非装机容量。",
+  "summary": "本期以“2027年度方案密集落地”为主线：国家能源局11月25日发布1—10月电力统计，全国装机41.6亿千瓦（+10.9%）、光伏13.3亿千瓦（+16.3%）、风电7.1亿千瓦（+20.0%）、平均利用小时2406小时（同比-214小时）；山东868号文建立发电侧可靠容量补偿机制并明确抽蓄全电量入市、独立储能SOC管理与虚拟电厂填谷收益分摊；浙江《2027年浙江省电力市场化交易方案》确定中长期占比不低于90%、煤电浮动不超过20%、现货二级限价；江苏公布24个电网侧独立储能清单（超2.725GW/10.1GWh、平均4小时、2027年10月底前投运）；宁夏西岭750千伏工程11月24日23时53分投运（总投资超10亿元）；浙江首个出口外向型绿电直连项目（72MW配30MW/75MWh、总投资3.28亿元）计划12月28日投产；“一带一路”能源合作伙伴关系理事会成立并审议通过伙伴关系2027年度工作计划；广东提出推进西北、西南送电广东直流工程；晶科储能披露西班牙90兆瓦时项目。特来电、星星充电、云快充本期无可核实一手动态，按静默日处理。",
+  "relative_html": "2026/11/2026-11-26/Daily%20Intelligence.html",
+  "topics": [
+    "发电侧可靠容量补偿机制",
+    "鲁发改能源〔2026〕868号",
+    "顶峰时段可持续供电容量",
+    "独立储能纳入容量补偿",
+    "容量补偿费用分摊",
+    "火电30%额定负荷运行成本补偿",
+    "抽水蓄能全电量入市",
+    "独立储能SOC管理",
+    "虚拟电厂填谷收益分摊",
+    "2027年浙江省电力市场化交易方案",
+    "中长期交易电量占比90%",
+    "煤电价格浮动20%",
+    "现货二级限价",
+    "电网企业代理购电",
+    "1—10月全国电力统计",
+    "发电设备平均利用小时",
+    "沙戈荒新能源送出",
+    "西岭750千伏投运",
+    "江苏电网侧独立储能清单",
+    "促投资百日攻坚行动",
+    "绿电直连",
+    "欧盟碳边境调节机制",
+    "一带一路能源合作伙伴关系理事会",
+    "粤港澳大湾区绿色低碳产业集群",
+    "送电广东直流工程",
+    "晶科储能西班牙项目",
+    "充电运营商静默日"
+  ],
+  "quote": {
+    "english": "Spain is an exciting and important market for energy storage, and we are very pleased to support this portfolio across the two projects. Through our established local service capabilities, we provide hands-on support from project delivery to long-term operation, ensuring sustainable performance and returns on investment.",
+    "speaker": "Roberto Murgioni, General Manager of Jinko ESS Europe",
+    "chinese": "西班牙是一个充满活力且重要的储能市场，我们很高兴为这两个项目组成的组合提供支持；依托已经建立起来的本地服务能力，我们从项目交付一直到长期运营提供现场支持，确保持续的性能表现与投资回报。",
+    "source_url": "https://www.ess-news.com/2026-11-25/jinko-ess-supports-the-next-phase-of-battery-storage-development-in-spain/"
+  },
+  "markets": [
+    {
+      "name": "全国累计发电装机容量（截至2026年10月底）",
+      "value": 41.6,
+      "unit": "亿千瓦",
+      "status": "国家能源局1—10月份全国电力统计",
+      "source_url": "https://www.nea.gov.cn/20261125/155af4f250be4ce99ae523fff16801f0/c.html"
+    },
+    {
+      "name": "全国发电装机同比增速",
+      "value": 10.9,
+      "unit": "%",
+      "status": "国家能源局统计公布增速",
+      "source_url": "https://www.nea.gov.cn/20261125/155af4f250be4ce99ae523fff16801f0/c.html"
+    },
+    {
+      "name": "太阳能发电装机容量",
+      "value": 13.3,
+      "unit": "亿千瓦",
+      "status": "国家能源局统计公布",
+      "source_url": "https://www.nea.gov.cn/20261125/155af4f250be4ce99ae523fff16801f0/c.html"
+    },
+    {
+      "name": "太阳能发电装机同比增速",
+      "value": 16.3,
+      "unit": "%",
+      "status": "国家能源局统计公布增速",
+      "source_url": "https://www.nea.gov.cn/20261125/155af4f250be4ce99ae523fff16801f0/c.html"
+    },
+    {
+      "name": "风电装机容量",
+      "value": 7.1,
+      "unit": "亿千瓦",
+      "status": "国家能源局统计公布",
+      "source_url": "https://www.nea.gov.cn/20261125/155af4f250be4ce99ae523fff16801f0/c.html"
+    },
+    {
+      "name": "风电装机同比增速",
+      "value": 20.0,
+      "unit": "%",
+      "status": "国家能源局统计公布增速",
+      "source_url": "https://www.nea.gov.cn/20261125/155af4f250be4ce99ae523fff16801f0/c.html"
+    },
+    {
+      "name": "全国发电设备累计平均利用小时（1—10月）",
+      "value": 2406,
+      "unit": "小时",
+      "status": "国家能源局统计公布",
+      "source_url": "https://www.nea.gov.cn/20261125/155af4f250be4ce99ae523fff16801f0/c.html"
+    },
+    {
+      "name": "全国发电设备累计平均利用小时同比减少",
+      "value": 214,
+      "unit": "小时",
+      "status": "国家能源局统计公布降幅",
+      "source_url": "https://www.nea.gov.cn/20261125/155af4f250be4ce99ae523fff16801f0/c.html"
+    },
+    {
+      "name": "风电与光伏合计装机容量（按公布数字相加）",
+      "value": 20.4,
+      "unit": "亿千瓦",
+      "status": "按13.3亿千瓦与7.1亿千瓦相加计算",
+      "source_url": "https://www.nea.gov.cn/20261125/155af4f250be4ce99ae523fff16801f0/c.html"
+    },
+    {
+      "name": "风电与光伏合计占全国装机比重（按公布数字计算）",
+      "value": 49.0,
+      "unit": "%",
+      "status": "按20.4/41.6计算",
+      "source_url": "https://www.nea.gov.cn/20261125/155af4f250be4ce99ae523fff16801f0/c.html"
+    },
+    {
+      "name": "山东火电纳入运行成本补偿的负荷上限",
+      "value": 30,
+      "unit": "%",
+      "status": "鲁发改能源〔2026〕868号规定30%（含）额定负荷以内保供电能量成本纳入补偿",
+      "source_url": "https://power.in-en.com/html/power-2481485.shtml"
+    },
+    {
+      "name": "山东2027年度电力市场建设通知文号",
+      "value": 868,
+      "unit": "号",
+      "status": "鲁发改能源〔2026〕868号",
+      "source_url": "https://power.in-en.com/html/power-2481485.shtml"
+    },
+    {
+      "name": "浙江2027年中长期交易电量占比下限",
+      "value": 90,
+      "unit": "%",
+      "status": "《2027年浙江省电力市场化交易方案》规定原则上不低于90%",
+      "source_url": "https://power.in-en.com/html/power-2481496.shtml"
+    },
+    {
+      "name": "浙江煤电交易价格上下浮动上限",
+      "value": 20,
+      "unit": "%",
+      "status": "中长期市场执行基准价加上下浮动机制",
+      "source_url": "https://power.in-en.com/html/power-2481496.shtml"
+    },
+    {
+      "name": "江苏电网侧独立储能清单项目数量",
+      "value": 24,
+      "unit": "个",
+      "status": "江苏省发展改革委促投资百日攻坚行动清单",
+      "source_url": "https://chuneng.in-en.com/html/chunengy-60289.shtml"
+    },
+    {
+      "name": "江苏清单合计功率",
+      "value": 2.725,
+      "unit": "吉瓦",
+      "status": "公开报道口径为超2.725吉瓦",
+      "source_url": "https://chuneng.in-en.com/html/chunengy-60289.shtml"
+    },
+    {
+      "name": "江苏清单合计能量",
+      "value": 10.1,
+      "unit": "吉瓦时",
+      "status": "公开报道口径为超10.1吉瓦时",
+      "source_url": "https://chuneng.in-en.com/html/chunengy-60289.shtml"
+    },
+    {
+      "name": "江苏清单平均储能时长",
+      "value": 4,
+      "unit": "小时",
+      "status": "通知梳理结果统计",
+      "source_url": "https://chuneng.in-en.com/html/chunengy-60289.shtml"
+    },
+    {
+      "name": "江苏清单多数项目功率",
+      "value": 100,
+      "unit": "兆瓦",
+      "status": "多数项目在100MW/400MWh左右",
+      "source_url": "https://chuneng.in-en.com/html/chunengy-60289.shtml"
+    },
+    {
+      "name": "江苏清单多数项目能量",
+      "value": 400,
+      "unit": "兆瓦时",
+      "status": "多数项目在100MW/400MWh左右",
+      "source_url": "https://chuneng.in-en.com/html/chunengy-60289.shtml"
+    },
+    {
+      "name": "江苏清单最大项目功率",
+      "value": 250,
+      "unit": "兆瓦",
+      "status": "清单中最大项目规模",
+      "source_url": "https://chuneng.in-en.com/html/chunengy-60289.shtml"
+    },
+    {
+      "name": "江苏清单最大项目能量",
+      "value": 1,
+      "unit": "吉瓦时",
+      "status": "清单中最大项目为250MW/1GWh",
+      "source_url": "https://chuneng.in-en.com/html/chunengy-60289.shtml"
+    },
+    {
+      "name": "宁夏西岭输变电工程电压等级",
+      "value": 750,
+      "unit": "千伏",
+      "status": "2026-11-24投运",
+      "source_url": "https://www.ne21.com/news/show-234586.html"
+    },
+    {
+      "name": "宁夏西岭工程主变压器进入试运行台数",
+      "value": 3,
+      "unit": "台",
+      "status": "1、2、3号主变压器进入72小时试运行",
+      "source_url": "https://www.ne21.com/news/show-234586.html"
+    },
+    {
+      "name": "宁夏西岭工程试运行时长",
+      "value": 72,
+      "unit": "小时",
+      "status": "并网投产后的试运行安排",
+      "source_url": "https://www.ne21.com/news/show-234586.html"
+    },
+    {
+      "name": "宁夏西岭工程总投资",
+      "value": 10,
+      "unit": "亿元",
+      "status": "报道口径为总投资超10亿元",
+      "source_url": "https://www.ne21.com/news/show-234586.html"
+    },
+    {
+      "name": "宁夏西岭工程建设周期",
+      "value": 2,
+      "unit": "年",
+      "status": "线路2024年11月25日开工",
+      "source_url": "https://www.ne21.com/news/show-234586.html"
+    },
+    {
+      "name": "浙江永杰铝业绿电直连配套光伏规模",
+      "value": 72,
+      "unit": "兆瓦",
+      "status": "国家能源局11月24日消息",
+      "source_url": "https://www.nea.gov.cn/20261124/f74062a55cea49c48346e16666cc9529/c.html"
+    },
+    {
+      "name": "浙江永杰铝业绿电直连配套储能功率",
+      "value": 30,
+      "unit": "兆瓦",
+      "status": "配套30MW/75MWh储能",
+      "source_url": "https://www.nea.gov.cn/20261124/f74062a55cea49c48346e16666cc9529/c.html"
+    },
+    {
+      "name": "浙江永杰铝业绿电直连配套储能能量",
+      "value": 75,
+      "unit": "兆瓦时",
+      "status": "配套30MW/75MWh储能",
+      "source_url": "https://www.nea.gov.cn/20261124/f74062a55cea49c48346e16666cc9529/c.html"
+    },
+    {
+      "name": "浙江永杰铝业绿电直连项目总投资",
+      "value": 3.28,
+      "unit": "亿元",
+      "status": "由杭州凌瀚新能源全额投资",
+      "source_url": "https://www.nea.gov.cn/20261124/f74062a55cea49c48346e16666cc9529/c.html"
+    },
+    {
+      "name": "项目每年预计节省碳关税支出",
+      "value": 900,
+      "unit": "万元",
+      "status": "国家能源局稿件口径为约900万元",
+      "source_url": "https://www.nea.gov.cn/20261124/f74062a55cea49c48346e16666cc9529/c.html"
+    },
+    {
+      "name": "项目每年预计节约用电成本",
+      "value": 300,
+      "unit": "万元",
+      "status": "国家能源局稿件口径为约300万元",
+      "source_url": "https://www.nea.gov.cn/20261124/f74062a55cea49c48346e16666cc9529/c.html"
+    },
+    {
+      "name": "晶科储能西班牙两个项目合计容量",
+      "value": 90,
+      "unit": "兆瓦时",
+      "status": "2026-11-25企业新闻稿",
+      "source_url": "https://www.ess-news.com/2026-11-25/jinko-ess-supports-the-next-phase-of-battery-storage-development-in-spain/"
+    },
+    {
+      "name": "晶科储能西班牙赫雷斯项目容量",
+      "value": 75,
+      "unit": "兆瓦时",
+      "status": "项目处于交付阶段",
+      "source_url": "https://www.ess-news.com/2026-11-25/jinko-ess-supports-the-next-phase-of-battery-storage-development-in-spain/"
+    },
+    {
+      "name": "晶科储能西班牙卡塔赫纳项目容量",
+      "value": 15,
+      "unit": "兆瓦时",
+      "status": "项目处于生产阶段",
+      "source_url": "https://www.ess-news.com/2026-11-25/jinko-ess-supports-the-next-phase-of-battery-storage-development-in-spain/"
+    },
+    {
+      "name": "晶科储能5兆瓦时容器部署数量",
+      "value": 18,
+      "unit": "台",
+      "status": "两项目合计部署",
+      "source_url": "https://www.ess-news.com/2026-11-25/jinko-ess-supports-the-next-phase-of-battery-storage-development-in-spain/"
+    },
+    {
+      "name": "晶科储能单台容器容量",
+      "value": 5,
+      "unit": "兆瓦时",
+      "status": "采用5兆瓦时电池储能容器",
+      "source_url": "https://www.ess-news.com/2026-11-25/jinko-ess-supports-the-next-phase-of-battery-storage-development-in-spain/"
+    }
+  ],
+  "sources": {
+    "policy": [
+      {
+        "title": "山东三省联合发布《关于做好2027年全省电力市场建设有关工作的通知》",
+        "summary": "山东省发展改革委、省能源局、国家能源局山东监管办公室11月24日发布鲁发改能源〔2026〕868号（行业媒体11月25日转载）：建立发电侧可靠容量补偿机制，按全年系统顶峰时段可持续稳定供电容量核定，范围含自主参与市场的煤电、气电与符合条件的电网侧独立新型储能；获得其他保障的容量不重复补偿、政府定价机组不予补偿；补偿费用纳入系统运行费由全体工商业用户分摊；火电30%（含）额定负荷以内保供电能量成本纳入补偿；抽水蓄能全电量参与市场，独立储能完善SOC管理，虚拟电厂明确填谷收益分摊机制。",
+        "url": "https://power.in-en.com/html/power-2481485.shtml",
+        "published": "2026-11-25",
+        "source": "山东省发展改革委、省能源局、国家能源局山东监管办公室（国际电力网转载）",
+        "primary": true
+      },
+      {
+        "title": "《2027年浙江省电力市场化交易方案》印发",
+        "summary": "浙江省发展改革委、省能源局、浙江能源监管办11月24日印发（行业媒体11月25日转载）：2027年市场化交易规模按全省工商业用户年度总用电量确定，原则上中长期交易电量占比不低于90%、其余电量通过现货市场交易；中长期执行基准价加上下浮动机制，煤电交易价格上下浮动不超过20%；现货在出清价格上下限基础上实施二级限价；代理购电价格按浙发改能源〔2025〕108号执行。",
+        "url": "https://power.in-en.com/html/power-2481496.shtml",
+        "published": "2026-11-25",
+        "source": "浙江省发展改革委、省能源局、浙江能源监管办（国际电力网转载）",
+        "primary": true
+      },
+      {
+        "title": "“一带一路”能源合作伙伴关系理事会正式成立 第一次会议在青岛成功召开",
+        "summary": "国家能源局11月25日消息：理事会11月25日下午正式成立，第一次会议在青岛召开，国家能源局局长、理事会主席王宏志出席致辞；会议审议通过理事会组建方案、第四届“一带一路”能源部长会议方案与伙伴关系2027年度工作计划，一致同意通过《部长联合声明》“1+6”系列成果文件，合作方向含保障能源安全、提升终端电气化率、加强跨境电网互联、促进人工智能与能源双向赋能等。",
+        "url": "https://www.nea.gov.cn/20261125/a0788a1a3a164e2cbf68b8178b734699/c.html",
+        "published": "2026-11-25",
+        "source": "国家能源局",
+        "primary": true
+      },
+      {
+        "title": "广东印发《推进粤港澳大湾区世界级绿色低碳产业集群建设实施方案》",
+        "summary": "广东省政府办公厅11月23日印发粤府办〔2026〕13号（行业媒体11月25日转载）：加快建设大湾区清洁能源供应保障体系，支持新一代煤电规划建设，推动生物质掺烧、绿氨掺烧、CCUS在煤电低碳化改造中的应用；支持湾区能源企业参与区外新能源建设，推进西北、西南等地区送电广东直流工程，优化区域碳排放考核核算。",
+        "url": "https://www.ne21.com/news/show-234589.html",
+        "published": "2026-11-25",
+        "source": "广东省人民政府办公厅（世纪新能源网转载）",
+        "primary": true
+      }
+    ],
+    "market": [
+      {
+        "title": "国家能源局发布2026年1—10月份全国电力统计数据",
+        "summary": "国家能源局11月25日发布：截至10月底全国累计发电装机41.6亿千瓦、同比增长10.9%，其中太阳能13.3亿千瓦、同比增长16.3%，风电7.1亿千瓦、同比增长20.0%；1—10月份全国发电设备累计平均利用2406小时，比上年同期降低214小时。",
+        "url": "https://www.nea.gov.cn/20261125/155af4f250be4ce99ae523fff16801f0/c.html",
+        "published": "2026-11-25",
+        "source": "国家能源局",
+        "primary": true
+      },
+      {
+        "title": "江苏公布24个电网侧独立储能清单：超2.725GW/10.1GWh",
+        "summary": "江苏省发展改革委11月10日发布《加快推进促投资百日攻坚行动电网侧独立新型储能项目建设》的通知，11月25日公开：24个项目合计规模超2.725吉瓦/10.1吉瓦时、平均储能时长4小时，单个项目多为100MW/400MWh、最大250MW/1GWh，要求2027年10月底前建成投运，省电力公司在接网工程、计量点设置、并网协议、调试运行与电费结算环节做好服务。",
+        "url": "https://chuneng.in-en.com/html/chunengy-60289.shtml",
+        "published": "2026-11-25",
+        "source": "江苏省发展改革委（国际储能网/储能头条披露）",
+        "primary": true
+      },
+      {
+        "title": "西岭750千伏输变电工程投运 宁夏“沙戈荒”再添电力枢纽",
+        "summary": "国网宁夏电力有限公司11月25日通报：11月24日23时53分，西岭750千伏输变电工程随1、2、3号主变压器进入72小时试运行正式并网投产；工程为宁夏“沙戈荒”大型新能源基地重点配套枢纽，2024年11月25日线路开工、建设周期两年、总投资超10亿元，采用HGIS配电装置与一个半断路器接线，完善宁夏750千伏双层立体双环网架。",
+        "url": "https://www.ne21.com/news/show-234586.html",
+        "published": "2026-11-25",
+        "source": "国网宁夏电力有限公司（世纪新能源网）",
+        "primary": true
+      },
+      {
+        "title": "浙江能源监管办扎实推进浙江首个绿电直连项目、华东首个出口外向型绿电直连项目落地",
+        "summary": "国家能源局11月24日发布：浙江能源监管办会同华东能源监管局赴永杰铝业72MW绿电直连项目调研；项目2026年8月获批，由杭州凌瀚新能源开发有限公司全额投资，总投资3.28亿元，新建72MW光伏电站并配套30MW/75MWh储能，已完成升压站主体结构封顶，计划2026年12月28日投产，预计每年节省碳关税支出约900万元、节约用电成本约300万元。",
+        "url": "https://www.nea.gov.cn/20261124/f74062a55cea49c48346e16666cc9529/c.html",
+        "published": "2026-11-24",
+        "source": "国家能源局（浙江能源监管办）",
+        "primary": true
+      },
+      {
+        "title": "Jinko ESS Supports the Next Phase of Battery Storage Development in Spain",
+        "summary": "Energy-Storage.news 11月25日刊发企业新闻稿：晶科储能在西班牙推进两个合计90兆瓦时的储能项目，其中75兆瓦时的赫雷斯德洛斯卡瓦列罗斯附近项目正在交付、15兆瓦时的卡塔赫纳项目处于生产阶段，均采用5兆瓦时储能容器共18台；公司强调本地技术商务团队、既有客户关系与交付速度三项优势。",
+        "url": "https://www.ess-news.com/2026-11-25/jinko-ess-supports-the-next-phase-of-battery-storage-development-in-spain/",
+        "published": "2026-11-25",
+        "source": "Energy-Storage.news (ESS News)",
+        "primary": true
+      }
+    ],
+    "competitors": []
+  },
+  "search_text": "能源日报 2026-11-26 可靠容量 容量补偿 顶峰时段 持续稳定供电 山东 868号 鲁发改能源 煤电 气电 电网侧独立新型储能 系统运行费 工商业用户分摊 火电30%额定负荷 运行成本补偿 抽水蓄能全电量入市 独立储能SOC 虚拟电厂填谷收益 浙江 2027年电力市场化交易方案 中长期交易电量占比不低于90% 煤电上下浮动不超过20% 现货二级限价 代理购电 浙发改能源〔2025〕108号 国家能源局 1—10月电力统计 41.6亿千瓦 同比增长10.9% 太阳能13.3亿千瓦 16.3% 风电7.1亿千瓦 20.0% 平均利用小时2406小时 降低214小时 沙戈荒 西岭750千伏 国网宁夏电力 双层立体双环网 HGIS 一个半断路器 72小时试运行 总投资超10亿元 江苏 电网侧独立储能 24个 2.725GW 10.1GWh 平均4小时 100MW/400MWh 250MW/1GWh 2027年10月底 促投资百日攻坚行动 倒送电 质监验收 绿电直连 永杰铝业 72MW 30MW/75MWh 杭州凌瀚新能源 3.28亿元 12月28日投产 CBAM 碳关税900万元 一带一路能源合作伙伴关系理事会 青岛 王宏志 2027年度工作计划 1+6 部长联合声明 跨境电网互联 终端电气化率 广东 粤港澳大湾区 绿色低碳产业集群 粤府办〔2026〕13号 送电广东直流工程 CCUS 绿氨掺烧 晶科储能 Jinko ESS 西班牙 90兆瓦时 5兆瓦时容器 18台 本地服务 长期运营 特来电 星星充电 云快充 静默日 特锐德 预中标 2.39亿元 中国充电联盟"
+}

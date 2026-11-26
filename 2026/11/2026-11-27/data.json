@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T07:33:17+08:00",
+  "model": "Qoder",
+  "mode": "model",
+  "thesis": "市场化交易仍在放量，但增长的分布与计价方式正在被重写：1—10月全国电力市场交易电量64971亿千瓦时、同比增长18.3%，其中省内50683亿增长21.7%、跨省跨区14288亿仅增长7.7%，10月单月省间电量只增长0.3%；中长期占89.0%、现货占11.0%。同期落地的省级文件把计价科目逐项拆开：江苏以苏发改价格发〔2026〕1119号启动2027年新能源增量项目机制电价竞价，机制电量130亿千瓦时、报价上限0.391元/千瓦时、其他风电和光伏下限降至0.2元/千瓦时，并把利用小时低于同类均值与未达全容量并网写进扣减和失效条款；四川分时电价征求意见稿保留±60%比例但把输配电价与政府性基金移出浮动基数，新增13:00—15:00午间低谷并把全年尖峰封顶在260小时；山东可靠容量补偿二次征求意见给出343元/千瓦·年（背景引用）。海外同期把同一道题写进合同：Statkraft与Zelestra就意大利175MW/700MWh签8年物理tolling，爱沙尼亚以55MW/250MWh配10年FPPA，马德里圆桌把可融资性列为西班牙2030年6至10吉瓦目标的主要障碍。2027年的竞争项不是装机容量或电量增速，而是收入结构能否被计价、被核验、被写进可执行合同。",
+  "summary": "本期以“电量放量与科目拆分”为主线：国家能源局11月26日发布1—10月全国电力市场交易电量64971亿千瓦时（+18.3%），省内50683亿（+21.7%）、跨省跨区14288亿（+7.7%），中长期57820亿、现货7151亿、绿电2830亿、代理购电6866亿；10月单月6435亿千瓦时（+14.1%）但跨省跨区仅+0.3%。江苏启动2027年新能源增量项目机制电价竞价（130亿千瓦时、上限0.391元/千瓦时、下限0.3元与0.2元、执行期15年与10年、新增利用小时扣减与并网失约条款）；四川就工商业分时电价征求意见（浮动基数收窄、午间13:00—15:00低谷、全年尖峰不超过260小时、50千伏安门槛、充电设施分类纳入）；国家发改委宣布自11月26日24时起汽、柴油每吨分别下调440元、425元；第四届“一带一路”能源部长会议在青岛举行并设立智库与“人工智能+能源”工作组。海外方面，Statkraft与Zelestra签任意大利175MW/700MWh的8年tolling、L&T取得印度300MW/900MWh订单、爱沙尼亚55MW/250MWh混合电站完工、马德里圆桌聚焦储能可融资性。山东343元/千瓦·年细则二次征求意见超出本期来源窗口，仅作背景引用。特来电、星星充电、云快充本期无可核实一手动态，按静默日处理。",
+  "relative_html": "2026/11/2026-11-27/Daily%20Intelligence.html",
+  "topics": [
+    "全国电力市场交易电量",
+    "1—10月交易电量64971亿千瓦时",
+    "跨省跨区交易增速0.3%",
+    "中长期与现货电量占比",
+    "绿电交易电量",
+    "电网企业代理购电",
+    "苏发改价格发〔2026〕1119号",
+    "新能源增量项目机制电价竞价",
+    "机制电量130亿千瓦时",
+    "燃煤发电基准价0.391元",
+    "报价下限0.2元每千瓦时",
+    "机制电价执行期限15年与10年",
+    "履约保函与并网失约",
+    "工商业分时电价机制",
+    "浮动基数收窄",
+    "午间低谷13:00—15:00",
+    "全年尖峰260小时上限",
+    "50千伏安执行门槛",
+    "充电设施纳入分时电价",
+    "国内成品油价格下调",
+    "汽柴油每吨下调440元与425元",
+    "一带一路能源部长会议",
+    "人工智能+能源工作组",
+    "部长联合声明",
+    "发电侧可靠容量补偿",
+    "343元每千瓦年",
+    "Statkraft储能优化",
+    "Zelestra意大利700兆瓦时",
+    "物理tolling协议",
+    "L&T古吉拉特900兆瓦时",
+    "NTPC Green Energy招标",
+    "爱沙尼亚混合电站",
+    "灵活性及购电协议FPPA",
+    "西班牙储能可融资性",
+    "勇敢股权",
+    "循环寿命8000至15000次",
+    "日前价差70欧元每兆瓦时",
+    "充电运营商静默日"
+  ],
+  "quote": {
+    "english": "There are going to be banks that are very conservative, but there are going to be many projects that move forward with what I call brave equity.",
+    "speaker": "Javier Revuelta, Vice President of Power and Renewables Consulting at Wood Mackenzie",
+    "chinese": "会有非常保守的银行，但也会有很多项目靠我所说的“勇敢的股权”往前走。",
+    "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+  },
+  "markets": [
+    {
+      "name": "1—10月全国累计交易电量",
+      "value": 64971,
+      "unit": "亿千瓦时",
+      "status": "国家能源局11月26日发布统计",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月省内交易电量",
+      "value": 50683,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月跨省跨区交易电量",
+      "value": 14288,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月中长期交易电量",
+      "value": 57820,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月现货交易电量",
+      "value": 7151,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月绿电交易电量",
+      "value": 2830,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月电网企业市场化代理购电电量",
+      "value": 6866,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "10月全国交易电量",
+      "value": 6435,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布单月值",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "10月省内交易电量",
+      "value": 5184,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布单月值",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "10月跨省跨区交易电量",
+      "value": 1251,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布单月值",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "10月中长期交易电量",
+      "value": 5631,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布单月值",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "10月现货交易电量",
+      "value": 804,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布单月值",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "10月绿电交易电量",
+      "value": 339,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布单月值",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "10月电网企业市场化代理购电电量",
+      "value": 578,
+      "unit": "亿千瓦时",
+      "status": "国家能源局统计公布单月值",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月交易电量同比增速",
+      "value": 18.3,
+      "unit": "%",
+      "status": "国家能源局统计公布增速",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "10月交易电量同比增速",
+      "value": 14.1,
+      "unit": "%",
+      "status": "国家能源局统计公布增速",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月省内交易电量同比增速",
+      "value": 21.7,
+      "unit": "%",
+      "status": "国家能源局统计公布增速",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月跨省跨区交易电量同比增速",
+      "value": 7.7,
+      "unit": "%",
+      "status": "国家能源局统计公布增速",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "10月跨省跨区交易电量同比增速",
+      "value": 0.3,
+      "unit": "%",
+      "status": "国家能源局统计公布增速",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "10月绿电交易电量同比增速",
+      "value": 19.8,
+      "unit": "%",
+      "status": "国家能源局统计公布增速",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月中长期交易电量占比",
+      "value": 89.0,
+      "unit": "%",
+      "status": "按57820/64971计算",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月现货交易电量占比",
+      "value": 11.0,
+      "unit": "%",
+      "status": "按7151/64971计算",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月省内交易电量占比",
+      "value": 78.0,
+      "unit": "%",
+      "status": "按50683/64971计算",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月绿电交易电量占比",
+      "value": 4.4,
+      "unit": "%",
+      "status": "按2830/64971计算",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "1—10月代理购电电量占比",
+      "value": 10.6,
+      "unit": "%",
+      "status": "按6866/64971计算",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "10月现货交易电量占比",
+      "value": 12.5,
+      "unit": "%",
+      "status": "按804/6435计算",
+      "source_url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html"
+    },
+    {
+      "name": "江苏2027年机制电量总规模",
+      "value": 130,
+      "unit": "亿千瓦时",
+      "status": "苏发改价格发〔2026〕1119号",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏海上风电类别机制电量",
+      "value": 5,
+      "unit": "亿千瓦时",
+      "status": "1119号文分类规模",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏其他风电和光伏类别机制电量",
+      "value": 125,
+      "unit": "亿千瓦时",
+      "status": "1119号文分类规模",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏两类竞价报价上限",
+      "value": 0.391,
+      "unit": "元/千瓦时",
+      "status": "取江苏省燃煤发电基准价",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏海上风电竞价下限",
+      "value": 0.3,
+      "unit": "元/千瓦时",
+      "status": "1119号文规定",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏其他风电和光伏竞价下限",
+      "value": 0.2,
+      "unit": "元/千瓦时",
+      "status": "由上一批次0.25元下调",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏上一批次其他风电和光伏竞价下限",
+      "value": 0.25,
+      "unit": "元/千瓦时",
+      "status": "2025—2026年批次口径",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏申报电量规模下限",
+      "value": 125,
+      "unit": "%",
+      "status": "不低于机制电量总规模的125%",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏单个项目申报电量比例上限",
+      "value": 90,
+      "unit": "%",
+      "status": "不高于预计年度上网电量的90%",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏海上风电近三年平均发电利用小时",
+      "value": 2656,
+      "unit": "小时",
+      "status": "用于折算预计年度上网电量",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏集中式光伏近三年平均发电利用小时",
+      "value": 1260,
+      "unit": "小时",
+      "status": "用于折算预计年度上网电量",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏海上风电机制电价执行期限",
+      "value": 15,
+      "unit": "年",
+      "status": "1119号文规定",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏其他风电和光伏机制电价执行期限",
+      "value": 10,
+      "unit": "年",
+      "status": "1119号文规定",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "江苏履约保函比例下限",
+      "value": 10,
+      "unit": "%",
+      "status": "不低于容量、利用小时与基准价三者乘积的10%",
+      "source_url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml"
+    },
+    {
+      "name": "四川高峰时段电价上浮比例",
+      "value": 60,
+      "unit": "%",
+      "status": "征求意见稿在平段电价基础上上浮60%",
+      "source_url": "https://sichuan.scol.com.cn/ggxw/202611/83363931.html"
+    },
+    {
+      "name": "四川低谷时段电价下浮比例",
+      "value": 60,
+      "unit": "%",
+      "status": "征求意见稿在平段电价基础上下浮60%",
+      "source_url": "https://sichuan.scol.com.cn/ggxw/202611/83363931.html"
+    },
+    {
+      "name": "四川尖峰时段在高峰基础上再上浮",
+      "value": 20,
+      "unit": "%",
+      "status": "征求意见稿规定",
+      "source_url": "https://sichuan.scol.com.cn/ggxw/202611/83363931.html"
+    },
+    {
+      "name": "四川全年尖峰时段上限",
+      "value": 260,
+      "unit": "小时",
+      "status": "征求意见稿原则上不超过260小时",
+      "source_url": "https://sichuan.scol.com.cn/ggxw/202611/83363931.html"
+    },
+    {
+      "name": "四川强制执行分时电价的变压器容量门槛",
+      "value": 50,
+      "unit": "千伏安",
+      "status": "及以上代理购电工商业用户强制执行",
+      "source_url": "https://sichuan.scol.com.cn/ggxw/202611/83363931.html"
+    },
+    {
+      "name": "四川非夏季月份午间低谷时长",
+      "value": 2,
+      "unit": "小时",
+      "status": "13:00—15:00划为低谷",
+      "source_url": "https://sichuan.scol.com.cn/ggxw/202611/83363931.html"
+    },
+    {
+      "name": "汽油（标准品）每吨下调金额",
+      "value": 440,
+      "unit": "元/吨",
+      "status": "自11月26日24时起执行",
+      "source_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202611/t20261126_1409082.html"
+    },
+    {
+      "name": "柴油（标准品）每吨下调金额",
+      "value": 425,
+      "unit": "元/吨",
+      "status": "自11月26日24时起执行",
+      "source_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202611/t20261126_1409082.html"
+    },
+    {
+      "name": "山东可靠容量补偿统一标准",
+      "value": 343,
+      "unit": "元/千瓦·年",
+      "status": "二次征求意见稿暂定标准（含税）",
+      "source_url": "https://chuneng.in-en.com/html/chunengy-60306.shtml"
+    },
+    {
+      "name": "山东细则落实所依据的国家发展改革委文号",
+      "value": 114,
+      "unit": "号",
+      "status": "发改价格〔2026〕114号",
+      "source_url": "https://chuneng.in-en.com/html/chunengy-60306.shtml"
+    },
+    {
+      "name": "意大利项目储能功率",
+      "value": 175,
+      "unit": "兆瓦",
+      "status": "Zelestra建设运营、计划2028年投运",
+      "source_url": "https://www.ess-news.com/2026-11-26/zelestra-statkraft-sign-700-mwh-battery-tolling-deal-in-italy/"
+    },
+    {
+      "name": "意大利项目储能容量",
+      "value": 700,
+      "unit": "兆瓦时",
+      "status": "时长4小时、8年物理tolling协议",
+      "source_url": "https://www.ess-news.com/2026-11-26/zelestra-statkraft-sign-700-mwh-battery-tolling-deal-in-italy/"
+    },
+    {
+      "name": "意大利项目储能时长",
+      "value": 4,
+      "unit": "小时",
+      "status": "项目公告口径",
+      "source_url": "https://www.ess-news.com/2026-11-26/zelestra-statkraft-sign-700-mwh-battery-tolling-deal-in-italy/"
+    },
+    {
+      "name": "Statkraft欧洲签约电池储能功率",
+      "value": 4,
+      "unit": "吉瓦",
+      "status": "覆盖九国、口径为逾4吉瓦",
+      "source_url": "https://www.ess-news.com/2026-11-26/zelestra-statkraft-sign-700-mwh-battery-tolling-deal-in-italy/"
+    },
+    {
+      "name": "Zelestra签约储能总量",
+      "value": 5.4,
+      "unit": "吉瓦时",
+      "status": "其中意大利四个项目3.5吉瓦时",
+      "source_url": "https://www.ess-news.com/2026-11-26/zelestra-statkraft-sign-700-mwh-battery-tolling-deal-in-italy/"
+    },
+    {
+      "name": "Zelestra意大利签约储能规模",
+      "value": 3.5,
+      "unit": "吉瓦时",
+      "status": "四个项目合计",
+      "source_url": "https://www.ess-news.com/2026-11-26/zelestra-statkraft-sign-700-mwh-battery-tolling-deal-in-italy/"
+    },
+    {
+      "name": "印度Khavda项目储能功率",
+      "value": 300,
+      "unit": "兆瓦",
+      "status": "L&T交易所公告口径",
+      "source_url": "https://www.ess-news.com/2026-11-26/indian-engineering-firm-wins-900-mwh-battery-order/"
+    },
+    {
+      "name": "印度Khavda项目储能容量",
+      "value": 900,
+      "unit": "兆瓦时",
+      "status": "3小时时长",
+      "source_url": "https://www.ess-news.com/2026-11-26/indian-engineering-firm-wins-900-mwh-battery-order/"
+    },
+    {
+      "name": "印度Khavda项目储能时长",
+      "value": 3,
+      "unit": "小时",
+      "status": "L&T公告口径",
+      "source_url": "https://www.ess-news.com/2026-11-26/indian-engineering-firm-wins-900-mwh-battery-order/"
+    },
+    {
+      "name": "L&T重大订单区间下限",
+      "value": 108,
+      "unit": "百万美元",
+      "status": "100亿卢比约合1.08亿美元",
+      "source_url": "https://www.ess-news.com/2026-11-26/indian-engineering-firm-wins-900-mwh-battery-order/"
+    },
+    {
+      "name": "NTPC Green Energy Khavda储能招标规模",
+      "value": 3300,
+      "unit": "兆瓦时",
+      "status": "1100MW/3300MWh含三个900兆瓦时区块",
+      "source_url": "https://www.ess-news.com/2026-11-26/indian-engineering-firm-wins-900-mwh-battery-order/"
+    },
+    {
+      "name": "Pace Digitek中标储能容量",
+      "value": 1800,
+      "unit": "兆瓦时",
+      "status": "两个300MW/900MWh区块",
+      "source_url": "https://www.ess-news.com/2026-11-26/indian-engineering-firm-wins-900-mwh-battery-order/"
+    },
+    {
+      "name": "NGEL六月招标储能合计",
+      "value": 14.3,
+      "unit": "吉瓦时",
+      "status": "古吉拉特与拉贾斯坦光伏电站配套",
+      "source_url": "https://www.ess-news.com/2026-11-26/indian-engineering-firm-wins-900-mwh-battery-order/"
+    },
+    {
+      "name": "爱沙尼亚Lihula项目储能功率",
+      "value": 55,
+      "unit": "兆瓦",
+      "status": "Evecon与Mirova合资平台BREP",
+      "source_url": "https://www.ess-news.com/2026-11-26/estonian-250-mwh-bess-added-to-existing-solar-plant-now-completed/"
+    },
+    {
+      "name": "爱沙尼亚Lihula项目储能容量",
+      "value": 250,
+      "unit": "兆瓦时",
+      "status": "波罗的海地区容量最大单体储能",
+      "source_url": "https://www.ess-news.com/2026-11-26/estonian-250-mwh-bess-added-to-existing-solar-plant-now-completed/"
+    },
+    {
+      "name": "爱沙尼亚Lihula项目配套光伏电站装机",
+      "value": 77.5,
+      "unit": "兆瓦",
+      "status": "2024年10月完工",
+      "source_url": "https://www.ess-news.com/2026-11-26/estonian-250-mwh-bess-added-to-existing-solar-plant-now-completed/"
+    },
+    {
+      "name": "爱沙尼亚混合化投资金额",
+      "value": 1.1,
+      "unit": "亿欧元",
+      "status": "约合1.207亿美元",
+      "source_url": "https://www.ess-news.com/2026-11-26/estonian-250-mwh-bess-added-to-existing-solar-plant-now-completed/"
+    },
+    {
+      "name": "爱沙尼亚BREP长期融资金额",
+      "value": 0.85,
+      "unit": "亿欧元",
+      "status": "来自Swedbank",
+      "source_url": "https://www.ess-news.com/2026-11-26/estonian-250-mwh-bess-added-to-existing-solar-plant-now-completed/"
+    },
+    {
+      "name": "爱沙尼亚FPPA协议期限",
+      "value": 10,
+      "unit": "年",
+      "status": "与Pure Energy签署的灵活性及购电协议",
+      "source_url": "https://www.ess-news.com/2026-11-26/estonian-250-mwh-bess-added-to-existing-solar-plant-now-completed/"
+    },
+    {
+      "name": "西班牙2030年储能装机预测上限",
+      "value": 10,
+      "unit": "吉瓦",
+      "status": "Wood Mackenzie口径、约合近40吉瓦时",
+      "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+    },
+    {
+      "name": "西班牙2030年储能能量估算",
+      "value": 40,
+      "unit": "吉瓦时",
+      "status": "按不足4小时时长折算",
+      "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+    },
+    {
+      "name": "西班牙2027年可能到货的储能规模",
+      "value": 10,
+      "unit": "吉瓦时",
+      "status": "圆桌发言称超过10吉瓦时",
+      "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+    },
+    {
+      "name": "西班牙日前价差阈值",
+      "value": 70,
+      "unit": "欧元/兆瓦时",
+      "status": "AEPIBAL预计未来十年不低于70",
+      "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+    },
+    {
+      "name": "西班牙二次调频可吸收储能下限",
+      "value": 1.5,
+      "unit": "吉瓦",
+      "status": "预计可吸收1.5至2吉瓦",
+      "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+    },
+    {
+      "name": "西班牙2026年储能收益中二次调频占比",
+      "value": 60,
+      "unit": "%",
+      "status": "套利约40%",
+      "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+    },
+    {
+      "name": "西班牙长期套利收益占比",
+      "value": 80,
+      "unit": "%",
+      "status": "圆桌预计套利占比可升至约80%",
+      "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+    },
+    {
+      "name": "西班牙tolling结构下项目杠杆率",
+      "value": 80,
+      "unit": "%",
+      "status": "一线设备与可信对手方条件下可超过80%",
+      "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+    },
+    {
+      "name": "当前电池循环寿命水平",
+      "value": 8000,
+      "unit": "次",
+      "status": "未来或提升至15000次",
+      "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+    },
+    {
+      "name": "目标电池循环寿命",
+      "value": 15000,
+      "unit": "次",
+      "status": "同等资本开支下度电存储成本近乎减半",
+      "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+    },
+    {
+      "name": "电池实际表现与模型假设偏差",
+      "value": 15,
+      "unit": "%",
+      "status": "部分项目观测到的偏差幅度",
+      "source_url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/"
+    }
+  ],
+  "sources": {
+    "policy": [
+      {
+        "title": "江苏开展2027年新能源增量项目机制电价竞价（苏发改价格发〔2026〕1119号）",
+        "summary": "江苏省发展改革委11月24日落款、11月25日印发，财经端11月26日转载通知全文：2025年6月1日至2027年12月31日全容量并网且未纳入过机制电价的新能源项目参与竞价，分海上风电与其他风电和光伏两类，报价上限均为0.391元/千瓦时，下限分别为0.3元与0.2元/千瓦时；机制电量总规模130亿千瓦时（海上风电5亿、其他125亿），执行期限15年与10年；单个项目申报电量不超预计年度上网电量90%，并新增利用小时低于同类均值即扣减机制电量、未达全容量并网即竞价失效并扣除保函等条款。",
+        "url": "https://finance.sina.com.cn/roll/2026-11-26/doc-inkaaaxc1450029.shtml",
+        "published": "2026-11-26",
+        "source": "江苏省发展改革委（新浪财经转载北极星电力市场网全文）",
+        "primary": true
+      },
+      {
+        "title": "四川就完善工商业分时电价机制公开征求意见：高峰上浮60%、午间新增两小时低谷",
+        "summary": "四川省发展改革委11月25日发布《关于完善我省工商业分时电价机制的通知（征求意见稿）》，四川在线11月26日刊发逐条解读：拟自2027年1月1日起执行，仅上网电价（含三项价差费用）与系统运行费用执行分时浮动，输配电价、线损与政府性基金及附加不再浮动；高峰上浮60%、低谷下浮60%、尖峰在高峰上再上浮20%；非夏季月份低谷为2:00—8:00与13:00—15:00，全年尖峰原则上不超过260小时，50千伏安及以上代理购电工商业用户强制执行，充电设施分类纳入；意见反馈截止12月24日。",
+        "url": "https://sichuan.scol.com.cn/ggxw/202611/83363931.html",
+        "published": "2026-11-26",
+        "source": "四川省发展改革委（四川在线）",
+        "primary": true
+      },
+      {
+        "title": "2026年11月26日国内成品油价格调整",
+        "summary": "国家发展改革委11月26日发布：11月12日调价以来国际油价震荡下行后近日回升，本次调价前10个工作日平均价格低于上次调价前水平，自11月26日24时起国内汽、柴油（标准品）价格每吨分别下调440元、425元；要求中石油、中石化、中海油等组织好生产调运并严格执行国家价格政策，各地加强市场监督检查。",
+        "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202611/t20261126_1409082.html",
+        "published": "2026-11-26",
+        "source": "国家发展改革委价格司",
+        "primary": true
+      },
+      {
+        "title": "第四届“一带一路”能源部长会议开幕式及主论坛在青岛召开",
+        "summary": "一带一路能源合作网（国家能源局主办）11月26日发布：11月26日上午第四届“一带一路”能源部长会议开幕式及主论坛在青岛举行，主题“共享创新成果 共促能源转型 共筑安全未来”，国家能源局局长王宏志与山东省省长周乃翔、青岛市委书记曾赞荣开幕致辞，多国能源部长及世界能源理事会董事会主席、联合国副秘书长兼亚太经社会执行秘书发表主旨演讲；会议期间举行能源合作伙伴关系理事会成立仪式、智库工作组与“人工智能+能源”工作组成立仪式，发布“创新赋能”最佳实践、《发展中国家能源绿色低碳转型与安全韧性蓝皮书》与部长联合声明。",
+        "url": "https://obor.nea.gov.cn/detail2/23382.html",
+        "published": "2026-11-26",
+        "source": "一带一路能源合作网运营中心（国家能源局主办）",
+        "primary": true
+      }
+    ],
+    "market": [
+      {
+        "title": "2026年1—10月全国电力市场交易电量同比增长18.3%",
+        "summary": "国家能源局11月26日发布：10月全国各电力交易机构完成交易电量6435亿千瓦时、同比增长14.1%，其中省内5184亿千瓦时增长18.5%、跨省跨区1251亿千瓦时增长0.3%，中长期5631亿、现货804亿、绿电339亿（+19.8%）、代理购电578亿千瓦时；1—10月累计64971亿千瓦时、同比增长18.3%，省内50683亿（+21.7%）、跨省跨区14288亿（+7.7%）、中长期57820亿、现货7151亿、绿电2830亿（+7.7%）、代理购电6866亿千瓦时。",
+        "url": "http://www.nea.gov.cn/20261126/e31e25a7929e472aaf8ac7b83eec2d78/c.html",
+        "published": "2026-11-26",
+        "source": "国家能源局",
+        "primary": true
+      },
+      {
+        "title": "Zelestra, Statkraft sign 700 MWh battery tolling deal in Italy",
+        "summary": "Energy-Storage.news 11月26日刊发（转自pv magazine Italia）：Zelestra将在意大利中部建设并运营175MW/700MWh、4小时、已完全取得许可的电池储能项目，与Statkraft签订8年物理tolling协议，计划2028年投运并接入Terna既有变电站；Statkraft自2018年起在英国开展储能优化，目前在欧洲九国签约逾4吉瓦，Zelestra称已签约5.4吉瓦时储能、其中意大利四个项目3.5吉瓦时。",
+        "url": "https://www.ess-news.com/2026-11-26/zelestra-statkraft-sign-700-mwh-battery-tolling-deal-in-italy/",
+        "published": "2026-11-26",
+        "source": "Energy-Storage.news (ESS News)",
+        "primary": true
+      },
+      {
+        "title": "Indian engineering firm wins 900 MWh battery order",
+        "summary": "Energy-Storage.news 11月26日报道：Larsen & Toubro在交易所公告中称取得印度古吉拉特邦Khavda一处300MW/900MWh、3小时电池储能订单，归为“significant”类别（该公司界定为100亿至250亿卢比，约合1.08亿美元起），未披露客户与金额；该规模与NTPC Green Energy为Khavda光伏电站招标的1100MW/3300MWh中的900兆瓦时区块一致，Pace Digitek本月早前获得两个同类区块共600MW/1800MWh、含GST计269亿卢比并含15年运维。",
+        "url": "https://www.ess-news.com/2026-11-26/indian-engineering-firm-wins-900-mwh-battery-order/",
+        "published": "2026-11-26",
+        "source": "Energy-Storage.news (ESS News)",
+        "primary": true
+      },
+      {
+        "title": "Spain could reach 10 GW of batteries by 2030, but bankability remains the major challenge",
+        "summary": "Energy-Storage.news 11月26日刊发pv magazine于11月25日在马德里Genera 2026举办的储能可融资性圆桌综述：受访者估计西班牙2030年底储能装机6至10吉瓦（Wood Mackenzie取10吉瓦、约合近40吉瓦时），2027年可能有逾10吉瓦时设备进入市场、交付到并网还需六到八个月；二次调频仅能吸收1.5至2吉瓦且预计两三年内快速萎缩，2026年储能收益中二次调频约60%、套利约40%，长期套利可升至80%；日前价差未来十年预计不低于70欧元/兆瓦时，可信对手方的tolling加一线设备可使项目杠杆率超过80%，部分项目实际表现与模型偏差达15%，循环寿命有望从约8000次提升至15000次。",
+        "url": "https://www.ess-news.com/2026-11-26/spain-could-reach-10-gw-of-batteries-by-2030-but-bankability-remains-the-major-challenge/",
+        "published": "2026-11-26",
+        "source": "Energy-Storage.news (ESS News)",
+        "primary": true
+      },
+      {
+        "title": "Estonian 250 MWh BESS added to existing solar plant, now completed",
+        "summary": "Energy-Storage.news 11月26日报道：爱沙尼亚Evecon与法国Mirova通过合资平台BREP在西部Lihula附近为2024年10月完工的77.5MW光伏电站加装55MW/250MWh储能，称其为波罗的海地区容量最大的单体储能与功率最高的混合电站，混合化投资1.1亿欧元（约合1.207亿美元）；储能1月开工、WiSo Engineering总包，技术完工后正在进行并网与市场测试；BREP与德国Pure Energy签有覆盖混合系统及15.5MW Imavere、12.8MW Lohu Mets电站的10年灵活性及购电协议（FPPA），此前获Swedbank 8500万欧元长期融资。",
+        "url": "https://www.ess-news.com/2026-11-26/estonian-250-mwh-bess-added-to-existing-solar-plant-now-completed/",
+        "published": "2026-11-26",
+        "source": "Energy-Storage.news (ESS News)",
+        "primary": true
+      }
+    ],
+    "competitors": []
+  },
+  "search_text": "能源日报 2026-11-27 国家能源局 电力市场交易电量 1—10月64971亿千瓦时 同比增长18.3% 省内50683亿 21.7% 跨省跨区14288亿 7.7% 10月6435亿千瓦时 14.1% 省内5184亿 18.5% 跨省跨区1251亿 0.3% 中长期57820亿 现货7151亿 绿电2830亿 代理购电6866亿 现货占比11.0% 中长期占比89.0% 江苏 苏发改价格发〔2026〕1119号 新能源增量项目 机制电价竞价 机制电量130亿千瓦时 海上风电5亿 其他风电光伏125亿 报价上限0.391元每千瓦时 燃煤基准价 下限0.3元 0.2元 上一批次0.25元 申报规模125% 单个项目90% 2656小时 2108小时 1260小时 1110小时 执行期限15年 10年 履约保函10% 利用小时低于同类均值扣减机制电量 全容量并网失约竞价失效 新能源云 网上国网 四川 工商业分时电价 征求意见稿 高峰上浮60% 低谷下浮60% 尖峰上浮20% 全年尖峰不超过260小时 输配电价不再执行分时浮动 三项价差费用 13:00至15:00午间低谷 50千伏安 充电设施 电动自行车充电 成都未来第三天预报气温 12月24日截止 国家发改委 成品油价格调整 11月26日24时 汽油下调440元 柴油下调425元 11月12日 12315 一带一路能源部长会议 青岛 王宏志 周乃翔 曾赞荣 理事会成立 山东 发电侧可靠容量补偿实施细则 二次征求意见 343元每千瓦年 发改价格〔2026〕114号 2027年1月1日 分布式储能 参照地方公用电厂 虚拟电厂 废止煤电容量电价 2倍补偿 Statkraft Zelestra 意大利 175MW 700MWh 8年 物理tolling 2028年投运 Terna 4吉瓦 九国 5.4吉瓦时 3.5吉瓦时 Larsen Toubro L&T Khavda 古吉拉特 300MW 900MWh 3小时 significant 100亿卢比 250亿卢比 NTPC Green Energy 1100MW 3300MWh Pace Digitek 269亿卢比 15年运维 14.3吉瓦时 Evecon Mirova BREP 爱沙尼亚 Lihula 55MW 250MWh 77.5MW 1.1亿欧元 8500万欧元 Swedbank WiSo Engineering Pure Energy 10年 FPPA 灵活性及购电协议 西班牙 Genera 2026 圆桌 6至10吉瓦 40吉瓦时 10吉瓦时 六到八个月 二次调频1.5至2吉瓦 60% 40% 80% 杠杆率 70欧元每兆瓦时 40欧元 15% 偏差 8000次 15000次 LCOS 勇敢股权 brave equity AEPIBAL Marquina Jerez Labiano Revuelta Wood Mackenzie Sungrow BNZ 特来电 特锐德 300001 星星充电 云快充 静默日 预中标 2.39亿元 五连中 中国充电联盟"
+}
